@@ -183,6 +183,9 @@ class SQLValidatorAgent(AgentBase):
         # 先移除字符串字面量，避免把文本内容误识别为字段
         cleaned = re.sub(r"'(?:''|[^'])*'", " ", sql)
         cleaned = re.sub(r'"(?:""|[^"])*"', " ", cleaned)
+        # 移除参数占位符，避免把 %s / %(name)s 误判为字段
+        cleaned = re.sub(r"%\([a-zA-Z_][a-zA-Z0-9_]*\)s", " ", cleaned)
+        cleaned = re.sub(r"%s", " ", cleaned)
         # 标准化反引号标识符
         cleaned = re.sub(r"`([^`]+)`", r"\1", cleaned)
         # 去掉 table.column 形式

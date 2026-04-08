@@ -147,7 +147,7 @@ async def main():
     pipeline = SQLAgentPipeline(knowledge_dir, structures_xlsx, model, output_dir)
 
     queries = [
-        "查询手机号是18610249655的会员信息"
+        "查询手机号是18610249655的订单"
     ]
 
     for query in queries:
