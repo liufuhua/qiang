@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智能问答系统</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 2800px;
+            margin: 0 auto;
+        }
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        .header p {
+            opacity: 0.9;
+            font-size: 1.1em;
+        }
+        .chat-box {
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        .chat-messages {
+            height: 700px;
+            overflow-y: auto;
+            padding: 20px;
+            background: #f8f9fa;
+        }
+        .message {
+            margin-bottom: 20px;
+            display: flex;
+            animation: fadeIn 0.3s ease;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .message.user {
+            justify-content: flex-end;
+        }
+        .message-content {
+            max-width: 100%;
+            padding: 12px 18px;
+            border-radius: 18px;
+            line-height: 1.5;
+        }
+        .message.assistant .message-content {
+            background: white;
+            border: 1px solid #e0e0e0;
+            border-bottom-left-radius: 4px;
+        }
+        .message.user .message-content {
+            background: #667eea;
+            color: white;
+            border-bottom-right-radius: 4px;
+        }
+        .chat-input {
+            display: flex;
+            padding: 20px;
+            background: white;
+            border-top: 1px solid #e0e0e0;
+        }
+        .chat-input input {
+            flex: 1;
+            padding: 14px 20px;
+            border: 2px solid #e0e0e0;
+            border-radius: 25px;
+            font-size: 16px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+        .chat-input input:focus {
+            border-color: #667eea;
+        }
+        .chat-input button {
+            margin-left: 12px;
+            padding: 14px 30px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .chat-input button:hover {
+            background: #5568d3;
+        }
+        .chat-input button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 2px solid #f3f3f3;
+            border-top: 2px solid #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .result-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            font-size: 13px;
+        }
+        .result-table th,
+        .result-table td {
+            border: 1px solid #ddd;
+            padding: 6px 10px;
+            text-align: left;
+        }
+        .result-table th {
+            background: #667eea;
+            color: white;
+            font-weight: 600;
+        }
+        .result-table tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+        .result-table tr:hover {
+            background: #e9ecef;
+        }
+        .no-data {
+            color: #999;
+            font-style: italic;
+            padding: 20px;
+            text-align: center;
+        }
+        .html-result {
+            margin-top: 10px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .html-result iframe {
+            width: 100%;
+            height: 800px;
+            max-height: 1000px;
+            border: none;
+            min-width: 1200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>智能问答系统</h1>
+            <p>请输入您的问题，我会为您查询数据库</p>
+            <p style="color: red;">为防止查询结果过大,所以当前设置最大查询结果只返回20条</p>
+        </div>
+        <div class="chat-box">
+            <div class="chat-messages" id="chatMessages">
+                <div class="message assistant">
+                    <div class="message-content">
+                        您好！有什么可以帮您的吗？请输入您的问题。
+                    </div>
+                </div>
+            </div>
+            <div class="chat-input">
+                <input type="text" id="userInput" placeholder="请输入您的问题..." onkeypress="handleKeyPress(event)">
+                <button onclick="sendMessage()" id="sendButton">发送</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        async function sendMessage() {
+            const input = document.getElementById('userInput');
+            const button = document.getElementById('sendButton');
+            const messagesDiv = document.getElementById('chatMessages');
+            const question = input.value.trim();
+
+            if (!question) return;
+
+            // 添加用户消息
+            addMessage(question, 'user');
+            input.value = '';
+
+            // 禁用按钮
+            button.disabled = true;
+            button.innerHTML = '<span class="loading"></span>';
+
+            try {
+                const response = await fetch('/ask', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ question: question }),
+                });
+
+                const result = await response.json();
+                addResultMessage(result);
+            } catch (error) {
+                addMessage('抱歉，发生了错误：' + error.message, 'assistant');
+            } finally {
+                button.disabled = false;
+                button.innerHTML = '发送';
+                messagesDiv.scrollTop = messagesDiv.scrollHeight;
+            }
+        }
+
+        function addMessage(text, role) {
+            const messagesDiv = document.getElementById('chatMessages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'message ' + role;
+
+            const contentDiv = document.createElement('div');
+            contentDiv.className = 'message-content';
+            contentDiv.textContent = text;
+
+            messageDiv.appendChild(contentDiv);
+            messagesDiv.appendChild(messageDiv);
+            messagesDiv.scrollTop = messagesDiv.scrollHeight;
+        }
+
+        function addResultMessage(result) {
+            const messagesDiv = document.getElementById('chatMessages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'message assistant';
+
+            const contentDiv = document.createElement('div');
+            contentDiv.className = 'message-content';
+
+            if (!result.needs_database) {
+                contentDiv.textContent = result.friendly_reply || '您好！';
+            } else {
+                let html = '';
+                for (const task of result.tasks) {
+                    html += '<div style="margin-bottom: 15px;">';
+                    html += '<strong>问题:</strong> ' + task.original_query + '<br>';
+
+                    if (task.success) {
+                        html += '<strong>状态:</strong> ✓ 成功<br>';
+
+                        const conversion = task.conversion_result;
+                        if (conversion && conversion.format === 'json') {
+                            try {
+                                const jsonData = JSON.parse(conversion.content);
+                                if (jsonData.data && jsonData.data.length > 0) {
+                                    html += '<table class="result-table">';
+                                    html += '<thead><tr>';
+                                    for (const col of jsonData.columns) {
+                                        html += '<th>' + escapeHtml(col) + '</th>';
+                                    }
+                                    html += '</tr></thead>';
+                                    html += '<tbody>';
+                                    for (const row of jsonData.data) {
+                                        html += '<tr>';
+                                        for (const col of jsonData.columns) {
+                                            const value = row[col];
+                                            html += '<td>' + escapeHtml(value !== null && value !== undefined ? String(value) : 'NULL') + '</td>';
+                                        }
+                                        html += '</tr>';
+                                    }
+                                    html += '</tbody>';
+                                    html += '</table>';
+                                    html += '<p style="margin-top: 8px; color: #666;">共 ' + jsonData.data.length + ' 条记录</p>';
+                                } else {
+                                    html += '<div class="no-data">暂无数据</div>';
+                                }
+                            } catch (e) {
+                                html += '<pre>' + escapeHtml(conversion.content) + '</pre>';
+                            }
+                        } else if (conversion && conversion.content) {
+                            // 直接显示 HTML 内容
+                            html += '<div class="html-result">';
+                            const iframe = document.createElement('iframe');
+                            iframe.srcdoc = conversion.content;
+                            html += iframe.outerHTML;
+                            html += '</div>';
+                        } else if (conversion && conversion.file_path) {
+                            html += '<p><a href="/output/' + conversion.file_path.split('/').pop() + '" target="_blank">点击查看 HTML 结果</a></p>';
+                        }
+                    } else {
+                        html += '<strong>状态:</strong> ✗ 失败<br>';
+                        html += '<strong>错误:</strong> ' + escapeHtml(task.error || '未知错误');
+                    }
+                    html += '</div>';
+                }
+                contentDiv.innerHTML = html;
+            }
+
+            messageDiv.appendChild(contentDiv);
+            messagesDiv.appendChild(messageDiv);
+            messagesDiv.scrollTop = messagesDiv.scrollHeight;
+
+            // 调整 iframe 高度自适应
+            const iframes = messageDiv.querySelectorAll('iframe');
+            iframes.forEach(iframe => {
+                iframe.onload = function() {
+                    try {
+                        const doc = iframe.contentDocument || iframe.contentWindow.document;
+                        const height = Math.min(doc.body.scrollHeight, 1000);
+                        iframe.style.height = height + 'px';
+                    } catch (e) {
+                        // 跨域错误时使用默认高度
+                        iframe.style.height = '800px';
+                    }
+                };
+            });
+        }
+
+        function escapeHtml(text) {
+            if (text === null || text === undefined) return '';
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        function handleKeyPress(event) {
+            if (event.key === 'Enter') {
+                sendMessage();
+            }
+        }
+    </script>
+</body>
+</html>

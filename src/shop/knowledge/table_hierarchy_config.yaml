@@ -1,0 +1,591 @@
+info:
+  generated_by: TableHierarchyGenerator
+  total_tables: 233
+  note: 请根据实际业务需求调整此配置文件
+hierarchy:
+  level_1:
+  - activity_goods
+  - activity_item
+  - activity_sort
+  - admin_user_notice
+  - agreement
+  - area
+  - banner_company
+  - banner_goods_detail
+  - banner_on_off_record_item
+  - banner_out_goods
+  - boutique_sale_goods
+  - business_person_channel
+  - byd_settlement_detail
+  - category_brand
+  - category_merge_item
+  - category_on_sale_rule_brand
+  - category_on_sale_rule_brand_his
+  - category_replace_jd_goods_rule
+  - channel_activity_goods
+  - channel_category_brand
+  - channel_goods_status
+  - channel_statement_item
+  - coupon_activity
+  - coupon_category
+  - coupon_company
+  - coupon_goods
+  - coupon_log
+  - dealer_link
+  - dealer_recharge_order
+  - dealer_refund_record
+  - dealer_user_guide_reading_record
+  - expired_table
+  - floating_window_company
+  - freight_channel_goods
+  - freight_template_item
+  - goods_addition
+  - goods_audit_info
+  - goods_img_change
+  - goods_info_new_detail_test
+  - goods_info_sheng_tian
+  - goods_jd_relate_his
+  - goods_jd_relate_task
+  - goods_max_buy
+  - goods_price_audit_info
+  - goods_price_update_record
+  - goods_profit_config
+  - goods_reject_reason
+  - goods_relate_check_record
+  - goods_relate_error_record
+  - goods_relate_ignore
+  - goods_relate_period_config
+  - goods_relate_res
+  - goods_relate_res_history
+  - goods_selection_audit_record
+  - goods_self_invoice_info
+  - goods_transfer_business
+  - goods_update_info
+  - hot_list
+  - hot_list_config
+  - index_config
+  - invoice_addition
+  - invoice_order
+  - invoice_order_addition
+  - invoice_red_apply
+  - invoice_red_confirm_goods
+  - invoice_request_info_goods
+  - jd2_balance_record
+  - journal_account
+  - mall_admin_user_permission
+  - manual_goods
+  - member_dealer_relation
+  - member_notice
+  - member_op_record
+  - member_order_addition
+  - member_order_item_offline_record
+  - member_order_item_replace_record
+  - member_order_item_service_state
+  - member_order_item_unconfirm_manu_record
+  - member_order_manual
+  - member_order_replace_goods
+  - member_order_replace_item
+  - member_search_record
+  - member_wechat
+  - none_invoice_order
+  - notice_company
+  - notice_read
+  - order_address
+  - order_deliver_info
+  - order_item_in_activity
+  - order_item_refund
+  - platform_qa
+  - platform_rule
+  - point_recharge_batch_repair
+  - policy
+  - pop_banner_company
+  - present_record
+  - price_change
+  - primary_goods_price
+  - primary_goods_price_profit
+  - reallocate_detail
+  - reallocate_record_detail
+  - recommend_b_brand
+  - recommend_b_category
+  - recommend_b_goods
+  - recommend_brand
+  - recommend_c1_brand
+  - recommend_c_brand
+  - recommend_c_category
+  - recommend_c_goods
+  - recommend_category
+  - recommend_member_goods
+  - recommend_select_record_goods
+  - recommend_self_goods
+  - recommend_uv
+  - settlement_car_apply_detail
+  - settlement_detail
+  - settlement_item_point
+  - stat_brand_map
+  - stat_month_brand
+  - stat_month_category
+  - stat_month_category_brand
+  - stat_month_category_brand_jd
+  - stat_month_category_jd
+  - stat_month_channel
+  - stat_month_consume
+  - stat_month_consume_day
+  - stat_month_consume_order
+  - stat_month_consume_order_item
+  - stat_month_keyword
+  - stat_month_member_point
+  - stat_month_point
+  - stat_week_brand
+  - stat_week_category
+  - stat_week_category_brand
+  - stat_week_category_brand_jd
+  - stat_week_category_jd
+  - stat_week_channel
+  - stat_week_consume
+  - stat_week_consume_day
+  - stat_week_consume_order
+  - stat_week_consume_order_item
+  - stat_week_keyword
+  - stat_week_point
+  - statistics_category_config
+  - statistics_goods_sale
+  - statistics_order_sale
+  - statistics_pv_uv
+  - sys_authority
+  - sys_city
+  - sys_distinct
+  - sys_log
+  - sys_permission
+  - sys_role_authority
+  - sys_role_permission
+  - sys_user_authority
+  - sys_user_role
+  - user_permission
+  - user_policies
+  level_2:
+  - category_on_sale_rule
+  - category_on_sale_rule_his
+  - channel
+  - channel_statement
+  - channel_statement_check
+  - dealer_recharge_file
+  - dealer_recharge_record
+  - dealers
+  - goods_category_test
+  level_3:
+  - allow_file
+  - banner_add_on_item
+  - banner_on_off_record
+  - banner_stock_sms_mobile
+  - block_keyword
+  - byd_settlement_batch
+  - car_series
+  - car_type
+  - expired_table_main
+  - freight_template
+  - fulu_template
+  - goods_info_new_test
+  - goods_jd_relate
+  - goods_relate_period_config_batch
+  - goods_relate_price
+  - goods_selection
+  - goods_selection_detail
+  - hot_main
+  - invoice
+  - invoice_jd_apply_item
+  - invoice_red_confirm
+  - invoice_request_info
+  - ip_table
+  - mall_admin_user
+  - member_buy_car_apply
+  - member_coupon
+  - member_order
+  - member_order_item
+  - member_order_main
+  - member_order_replace
+  - members
+  - no_stock
+  - notification
+  - on_sale
+  - on_sale_goods
+  - platform_instruction
+  - point_consum
+  - point_consum_detail
+  - point_policies
+  - point_recharge_batch
+  - point_recharge_detail
+  - point_revoke_record
+  - reallocate_record
+  - recommend_select_record
+  - settlement_batch
+  - shopping_cart_item
+  - sms_history
+  - ss_car_type
+  - user_address
+  level_4:
+  - coupon
+  - coupon_order_item
+  - gdf_activity
+  - order_pay_info
+  level_5:
+  - activity
+  - banner
+  - boutique_sale
+  - brands
+  - category_merge
+  - company
+  - floating_window
+  - import_file
+  - invoice_jd_apply
+  - notice
+  - pop_banner
+  - sys_province
+  - sys_role
+workflows:
+  activity_流程:
+  - activity
+  - gdf_activity
+  - activity_sort
+  - activity_goods
+  - coupon_activity
+  - channel_activity_goods
+  - activity_item
+  - order_item_in_activity
+  banner_流程:
+  - banner
+  - pop_banner
+  - banner_company
+  - banner_out_goods
+  - pop_banner_company
+  - banner_on_off_record
+  - banner_stock_sms_mobile
+  - banner_add_on_item
+  - banner_on_off_record_item
+  - banner_goods_detail
+  goods_流程:
+  - manual_goods
+  - goods_max_buy
+  - on_sale_goods
+  - goods_addition
+  - goods_jd_relate
+  - goods_selection
+  - goods_audit_info
+  - goods_img_change
+  - goods_relate_res
+  - goods_update_info
+  - recommend_b_goods
+  - recommend_c_goods
+  - goods_relate_price
+  - boutique_sale_goods
+  - goods_category_test
+  - goods_info_new_test
+  - goods_jd_relate_his
+  - goods_profit_config
+  - goods_reject_reason
+  - goods_relate_ignore
+  - primary_goods_price
+  - channel_goods_status
+  - goods_jd_relate_task
+  - recommend_self_goods
+  - freight_channel_goods
+  - goods_info_sheng_tian
+  - statistics_goods_sale
+  - goods_price_audit_info
+  - recommend_member_goods
+  - goods_transfer_business
+  - goods_relate_res_history
+  - goods_price_update_record
+  - goods_relate_check_record
+  - goods_relate_error_record
+  - goods_relate_period_config
+  - primary_goods_price_profit
+  - goods_selection_audit_record
+  - recommend_select_record_goods
+  - category_replace_jd_goods_rule
+  - goods_relate_period_config_batch
+  - goods_selection_detail
+  - goods_info_new_detail_test
+  settlement_流程:
+  - settlement_batch
+  - byd_settlement_batch
+  - settlement_detail
+  - byd_settlement_detail
+  - settlement_car_apply_detail
+  coupon_流程:
+  - coupon
+  - coupon_log
+  - coupon_goods
+  - member_coupon
+  - coupon_company
+  - coupon_category
+  - coupon_order_item
+  dealer_流程:
+  - dealers
+  - dealer_link
+  - dealer_refund_record
+  - dealer_user_guide_reading_record
+  point_流程:
+  - point_consum
+  - point_policies
+  - stat_week_point
+  - stat_month_point
+  - stat_week_consume
+  - stat_month_consume
+  - point_revoke_record
+  - dealer_recharge_file
+  - point_recharge_batch
+  - dealer_recharge_order
+  - stat_week_consume_day
+  - dealer_recharge_record
+  - stat_month_consume_day
+  - stat_month_member_point
+  - stat_week_consume_order
+  - stat_month_consume_order
+  - point_recharge_batch_repair
+  - settlement_item_point
+  - stat_week_consume_order_item
+  - stat_month_consume_order_item
+  - point_consum_detail
+  - point_recharge_detail
+  invoice_流程:
+  - invoice
+  - invoice_addition
+  - invoice_jd_apply
+  - invoice_red_apply
+  - invoice_red_confirm
+  - invoice_request_info
+  - goods_self_invoice_info
+  - invoice_red_confirm_goods
+  - invoice_request_info_goods
+  - invoice_jd_apply_item
+  order_流程:
+  - member_order_main
+  - member_order
+  - invoice_order
+  - order_address
+  - order_pay_info
+  - none_invoice_order
+  - order_deliver_info
+  - member_order_manual
+  - member_order_replace
+  - member_order_addition
+  - statistics_order_sale
+  - invoice_order_addition
+  - member_order_replace_goods
+  - member_order_item
+  - order_item_refund
+  - member_order_replace_item
+  - member_order_item_service_state
+  - member_order_item_offline_record
+  - member_order_item_replace_record
+  - member_order_item_unconfirm_manu_record
+  member_流程:
+  - members
+  - member_notice
+  - member_wechat
+  - member_op_record
+  - member_buy_car_apply
+  - member_search_record
+  - member_dealer_relation
+dimension_tables:
+- admin_user_notice
+- area
+- boutique_sale_goods
+- brands
+- business_person_channel
+- category_brand
+- category_merge
+- category_on_sale_rule
+- category_on_sale_rule_brand
+- category_on_sale_rule_brand_his
+- category_on_sale_rule_his
+- category_replace_jd_goods_rule
+- channel
+- channel_category_brand
+- channel_goods_status
+- channel_statement
+- channel_statement_check
+- company
+- dealer_link
+- dealers
+- floating_window_company
+- freight_channel_goods
+- goods_addition
+- goods_audit_info
+- goods_category_test
+- goods_img_change
+- goods_info_new_test
+- goods_info_sheng_tian
+- goods_jd_relate
+- goods_jd_relate_his
+- goods_jd_relate_task
+- goods_max_buy
+- goods_price_audit_info
+- goods_profit_config
+- goods_reject_reason
+- goods_relate_ignore
+- goods_relate_period_config
+- goods_relate_price
+- goods_relate_res
+- goods_selection
+- goods_transfer_business
+- goods_update_info
+- mall_admin_user
+- mall_admin_user_permission
+- manual_goods
+- member_buy_car_apply
+- member_dealer_relation
+- member_notice
+- member_wechat
+- members
+- notice_company
+- on_sale_goods
+- primary_goods_price
+- primary_goods_price_profit
+- recommend_b_brand
+- recommend_b_category
+- recommend_b_goods
+- recommend_brand
+- recommend_c1_brand
+- recommend_c_brand
+- recommend_c_category
+- recommend_c_goods
+- recommend_category
+- recommend_member_goods
+- recommend_self_goods
+- stat_brand_map
+- stat_month_brand
+- stat_month_category
+- stat_month_category_brand
+- stat_month_category_brand_jd
+- stat_month_category_jd
+- stat_month_channel
+- stat_week_brand
+- stat_week_category
+- stat_week_category_brand
+- stat_week_category_brand_jd
+- stat_week_category_jd
+- stat_week_channel
+- statistics_category_config
+- statistics_goods_sale
+- sys_authority
+- sys_city
+- sys_distinct
+- sys_permission
+- sys_province
+- sys_role
+- sys_role_authority
+- sys_role_permission
+- sys_user_authority
+- sys_user_role
+- user_address
+- user_permission
+- user_policies
+business_tables:
+- activity
+- activity_goods
+- activity_item
+- activity_sort
+- banner
+- banner_add_on_item
+- banner_company
+- banner_goods_detail
+- banner_on_off_record
+- banner_on_off_record_item
+- banner_out_goods
+- banner_stock_sms_mobile
+- byd_settlement_batch
+- byd_settlement_detail
+- category_merge_item
+- channel_activity_goods
+- channel_statement_item
+- coupon
+- coupon_activity
+- coupon_category
+- coupon_company
+- coupon_goods
+- coupon_log
+- coupon_order_item
+- dealer_recharge_file
+- dealer_recharge_order
+- dealer_recharge_record
+- dealer_refund_record
+- dealer_user_guide_reading_record
+- freight_template_item
+- gdf_activity
+- goods_info_new_detail_test
+- goods_price_update_record
+- goods_relate_check_record
+- goods_relate_error_record
+- goods_relate_period_config_batch
+- goods_relate_res_history
+- goods_selection_audit_record
+- goods_selection_detail
+- goods_self_invoice_info
+- invoice
+- invoice_addition
+- invoice_jd_apply
+- invoice_jd_apply_item
+- invoice_order
+- invoice_order_addition
+- invoice_red_apply
+- invoice_red_confirm
+- invoice_red_confirm_goods
+- invoice_request_info
+- invoice_request_info_goods
+- jd2_balance_record
+- member_coupon
+- member_op_record
+- member_order
+- member_order_addition
+- member_order_item
+- member_order_item_offline_record
+- member_order_item_replace_record
+- member_order_item_service_state
+- member_order_item_unconfirm_manu_record
+- member_order_main
+- member_order_manual
+- member_order_replace
+- member_order_replace_goods
+- member_order_replace_item
+- member_search_record
+- none_invoice_order
+- order_address
+- order_deliver_info
+- order_item_in_activity
+- order_item_refund
+- order_pay_info
+- point_consum
+- point_consum_detail
+- point_policies
+- point_recharge_batch
+- point_recharge_batch_repair
+- point_recharge_detail
+- point_revoke_record
+- pop_banner
+- pop_banner_company
+- present_record
+- reallocate_detail
+- reallocate_record
+- reallocate_record_detail
+- recommend_select_record
+- recommend_select_record_goods
+- settlement_batch
+- settlement_car_apply_detail
+- settlement_detail
+- settlement_item_point
+- shopping_cart_item
+- sms_history
+- stat_month_consume
+- stat_month_consume_day
+- stat_month_consume_order
+- stat_month_consume_order_item
+- stat_month_member_point
+- stat_month_point
+- stat_week_consume
+- stat_week_consume_day
+- stat_week_consume_order
+- stat_week_consume_order_item
+- stat_week_point
+- statistics_order_sale
+- sys_log

@@ -1,0 +1,41 @@
+[project]
+name = "new-shop-ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "agentscope>=0.5.0",
+    "fastapi>=0.116.0",
+    "langchain-community>=0.4.1",
+    "langchain-ollama>=1.0.1",
+    "pydantic>=2.11.10",
+    "pymysql>=1.1.2",
+    "sqlalchemy>=2.0.48",
+    "sshtunnel>=0.4.0",
+    "paramiko>=2.11,<3.0.0",
+    "python-dotenv>=1.0.0",
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.1",
+    "chromadb>=0.5.0",
+    "sentence-transformers>=3.0.0",
+    "networkx>=3.0",
+    "matplotlib>=3.10.8",
+    "pyvis>=0.3.2",
+    "openai>=1.0.0",
+    "uvicorn>=0.35.0",
+]
+
+[project.scripts]
+shop = "shop.main:run"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/shop"]
+
+[[tool.uv.index]]
+url = "https://mirrors.aliyun.com/pypi/simple/"
+default = true

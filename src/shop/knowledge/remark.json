@@ -1,0 +1,15 @@
+{
+  "point_recharge_detail": "必须用索引查询;总导入积分是sum(after_tax_point),条件是present_id=-1并且status>1;当point_recharge_batch的状态不是31时,需要对所有*after_tax_point进行计算;详情时可使用 *identification表示不同身份的积分",
+  "settlement_batch": "按积分政策结算;当batch_code不为NULL时,表示按批次结算",
+  "stat_brand_map": "只用于周报,月报",
+  "stat_week_keyword": "无 company_id 条件时，数值必须用 SUM 汇总",
+  "stat_week_point": "无 company_id 条件时，数值必须用 SUM 汇总",
+  "stat_week_consume_day": "无 company_id 条件时，数值必须用 SUM 汇总",
+  "stat_week_consume": "无 company_id 条件时，数值必须用 SUM 汇总",
+  "stat_month_point": "无 company_id 条件时，数值必须用 SUM 汇总",
+  "stat_month_member_point": "无 company_id 条件时，数值必须用 SUM 汇总",
+  "stat_month_keyword": "无 company_id 条件时，数值必须用 SUM 汇总",
+  "stat_month_consume_day": "无 company_id 条件时，数值必须用 SUM 汇总",
+  "stat_month_consume": "无 company_id 条件时，数值必须用 SUM 汇总"
+
+}

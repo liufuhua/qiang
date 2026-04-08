@@ -1,0 +1,2038 @@
+{
+  "table_info": {
+    "activity": "抽奖活动",
+    "activity_goods": "抽奖活动奖品",
+    "activity_item": "会员抽奖记录,会员中奖",
+    "activity_sort": "商品详情与活动页面的活动排序",
+    "admin_user_notice": "后台用户的弹窗提示记录",
+    "agreement": "经销商签约,经销商合同",
+    "allow_file": "可上传文件后缀",
+    "area": "大区,小区,区域",
+    "banner": "Banner,活动",
+    "banner_add_on_item": "加购商品配置表,加购活动详情",
+    "banner_company": "Banner与公司绑定关系",
+    "banner_goods_detail": "banner的商品详情",
+    "banner_on_off_record": "banner上下架与更新记录",
+    "banner_on_off_record_item": "banner上下架与更新详情",
+    "banner_out_goods": "banner中下架或无库存的商品, 用于发送商品低库存报警短信筛选商品",
+    "banner_stock_sms_mobile": "发送banner商品低库存报警短信的手机号",
+    "block_keyword": "京东渠道商品名黑名单",
+    "boutique_sale": "甄选商品活动",
+    "boutique_sale_goods": "甄选商品详情",
+    "brands": "商品品牌",
+    "business_person_channel": "后台用户角色为 商务专员 所查看操作的渠道",
+    "byd_settlement_batch": "比亚迪公司专用结算批次",
+    "byd_settlement_detail": "比亚迪公司专用结算详情",
+    "car_series": "大众公司购车专用车系",
+    "car_type": "大众公司购车专用车系下的车辆版本,车型",
+    "category_brand": "商品品牌与商品分类的关系记录",
+    "category_merge": "前端的一级分类合并",
+    "category_merge_item": "前端合并分类详情",
+    "category_on_sale_rule": "分类的利润率规则,上下架规则",
+    "category_on_sale_rule_brand": "分类的利润率规则,上下架规则下的分类与品牌关系",
+    "category_on_sale_rule_brand_his": "分类的历史利润率规则,上下架规则下的分类与品牌关系",
+    "category_on_sale_rule_his": "分类的历史利润率规则,上下架规则",
+    "category_replace_jd_goods_rule": "三级分类京东商品替换规则",
+    "channel": "商品渠道,供应商,供货方",
+    "channel_activity_goods": "京东渠道专用的banner与秒杀商品上架成本价记录",
+    "channel_category_brand": "自营渠道可售商品分类与品牌",
+    "channel_goods_status": "供应商上下架商品记录",
+    "channel_statement": "渠道,供应商结算单",
+    "channel_statement_check": "渠道供应商导入结算自助核对",
+    "channel_statement_item": "渠道,供应商结算单订单详情",
+    "company": "公司",
+    "coupon": "优惠券,红包信息及规则表",
+    "coupon_activity": "优惠券,红包指定活动时的绑定关系",
+    "coupon_category": "优惠券,红包指定分类或排除分类关系",
+    "coupon_company": "优惠券可用的公司",
+    "coupon_goods": "优惠券,红包指定商品或排除商品关系",
+    "coupon_log": "优惠券,红包变化记录表",
+    "coupon_order_item": "优惠券,红包与订单绑定关系表",
+    "dealer_link": "经销商上下级关系",
+    "dealer_recharge_file": "经销商充值导入文件记录",
+    "dealer_recharge_order": "经销商充值与订单关系表",
+    "dealer_recharge_record": "经销商充值记录",
+    "dealer_refund_record": "经销商退款记录",
+    "dealer_user_guide_reading_record": "经销商后台用户阅读使用说明记录",
+    "dealers": "经销商",
+    "expired_table": "即将过期积分详情",
+    "expired_table_main": "用户即将过期记录",
+    "floating_window": "浮窗",
+    "floating_window_company": "浮窗与公司关系",
+    "freight_channel_goods": "渠道,供应商商品与运费模版关系",
+    "freight_template": "运费模版",
+    "freight_template_item": "运费模版与省份绑定关系",
+    "gdf_activity": "同步GDF商品的活动信息",
+    "goods_addition": "秒杀,甄选,banner商品活动价与最低利润率配置",
+    "goods_audit_info": "商品审核记录",
+    "goods_category_test": "商品分类",
+    "goods_img_change": "商品图片变化记录",
+    "goods_info_new_detail_test": "商品详情信息",
+    "goods_info_new_test": "商品信息",
+    "goods_info_sheng_tian": "胜天半子渠道商品",
+    "goods_max_buy": "商品月限购配置",
+    "goods_price_audit_info": "商品成本价修改审批",
+    "goods_price_update_record": "商品销售价更改记录",
+    "goods_profit_config": "比价利润率配置表",
+    "goods_reject_reason": "商品审核拒绝原因",
+    "goods_relate_check_record": "商品比价结果",
+    "goods_relate_error_record": "商品比价错误上报",
+    "goods_relate_ignore": "商品忽略比价",
+    "goods_relate_period_config": "商品比价分类表",
+    "goods_relate_period_config_batch": "商品比价配置主表",
+    "goods_relate_price": "商品比价记录",
+    "goods_relate_res": "当前商品比价结果",
+    "goods_relate_res_history": "商品比价历史记录",
+    "goods_selection": "banner,甄选,秒杀的选品",
+    "goods_selection_audit_record": "选品审核记录",
+    "goods_selection_detail": "选品详情表",
+    "goods_self_invoice_info": "自营商品开票信息",
+    "goods_transfer_business": "商品管理员转交异常信息给商务专员记录",
+    "goods_update_info": "商品名与成本价更改记录",
+    "hot_list": "商品榜单列表",
+    "hot_list_config": "榜单商品配置",
+    "hot_main": "每个公司的榜单图片与名称配置",
+    "index_config": "前端搜索页面推荐商品配置",
+    "invoice": "经销商发票信息表",
+    "invoice_addition": "经销商冲票",
+    "invoice_order": "发票订单关系表",
+    "invoice_order_addition": "发票与子订单关系表",
+    "ip_table": "后台账号登录IP限制黑白名单",
+    "jd2_balance_record": "京东交易记录表",
+    "journal_account": "积分流水",
+    "mall_admin_user": "后台用户表",
+    "manual_goods": "人工修改京东商品上下架记录",
+    "member_buy_car_apply": "用户购车信息与审核",
+    "member_coupon": "用户,会员优惠券领取表",
+    "member_dealer_relation": "多经销商会员用户与经销商关系表",
+    "member_notice": "用户,会员通知",
+    "member_op_record": "用户会员操作记录",
+    "member_order": "订单主表",
+    "member_order_addition": "支付订单时经销商金额记录",
+    "member_order_item": "订单子表,子订单表",
+    "member_order_item_offline_record": "待退回订单的换货记录",
+    "member_order_item_replace_record": "订单换货记录",
+    "member_order_item_service_state": "京东渠道服务单记录",
+    "member_order_item_unconfirm_manu_record": "人工待确认订单原因",
+    "member_order_main": "下单时拆单的组合,",
+    "member_order_manual": "人工待确认订单处理分发后台用户",
+    "member_order_replace": "记录线下换货记录",
+    "member_order_replace_goods": "订单线下换货商品信息",
+    "member_order_replace_item": "订单线下换货子订单信息",
+    "member_search_record": "会员,用户搜索记录",
+    "member_wechat": "用户会员绑定的微信号",
+    "members": "会员表,用户表",
+    "no_stock": "京东商品无货记录",
+    "none_invoice_order": "无票订单审核",
+    "notice": "系统公告",
+    "notice_company": "系统公告与公司关系",
+    "notice_read": "会员,用户阅读公告记录",
+    "notification": "后台通知",
+    "on_sale": "秒杀",
+    "on_sale_goods": "秒杀商品",
+    "order_address": "订单收货地址关联表",
+    "order_deliver_info": "订单物流信息表,发货信息",
+    "order_item_in_activity": "订单中使用活动价格的记录. 因order_item是批量保存, 所以此处使用 order_id与goods_id匹配",
+    "order_item_refund": "订单退款,退积分",
+    "order_pay_info": "订单现金支付信息表",
+    "platform_instruction": "平台使用指南信息",
+    "platform_qa": "常见问题",
+    "platform_rule": "平台服务规则",
+    "point_consum": "消费记录主表",
+    "point_consum_detail": "消费记录详情表",
+    "point_policies": "积分政策",
+    "point_recharge_batch": "导入积分批次",
+    "point_recharge_batch_repair": "积分批次的更新导入与撤销导入文件记录",
+    "point_recharge_detail": "会员积分导入详情,充值详情",
+    "point_revoke_record": "积分批次撤销记录",
+    "policy": "平台政策",
+    "pop_banner": "泡泡,弹窗活动",
+    "pop_banner_company": "泡泡,弹窗活动与公司关系",
+    "present_record": "会员积分转赠记录",
+    "price_change": "京东价格变更记录",
+    "primary_goods_price": "一级供应商的成本价",
+    "primary_goods_price_profit": "一级供应商商品最低利润率配置",
+    "reallocate_detail": "奥迪公司可用于重新分配的recharge_detail id",
+    "reallocate_record": "奥迪公司积分重新分配记录",
+    "reallocate_record_detail": "奥迪公司冻结积分重新分配详情",
+    "recommend_b_brand": "品牌的推荐品牌",
+    "recommend_b_category": "品牌的推荐分类",
+    "recommend_b_goods": "品牌的推荐商品",
+    "recommend_brand": "首页推荐品牌",
+    "recommend_c1_brand": "一级分类的推荐品牌",
+    "recommend_c_brand": "分类的推荐品牌",
+    "recommend_c_category": "分类的推荐其它分类",
+    "recommend_c_goods": "分类的推荐商品",
+    "recommend_category": "首页推荐分类",
+    "recommend_member_goods": "用户推荐商品",
+    "recommend_select_record": "商品所在地址是否有货主表",
+    "recommend_select_record_goods": "商品所在地址是否有货详情表",
+    "recommend_self_goods": "自行配置的会员推荐商品",
+    "recommend_uv": "会员操作打点",
+    "settlement_batch": "积分政策,积分批次结算主表",
+    "settlement_car_apply_detail": "积分政策,积分批次结算购车详情表",
+    "settlement_detail": "积分政策,积分批次结算订单详情表",
+    "settlement_item_point": "XMT政策历史结算订单积分",
+    "shopping_cart_item": "购物车",
+    "sms_history": "会员登录手机验证码",
+    "ss_car_type": "SS部门车型对应6位编码",
+    "stat_brand_map": "周报,月报品牌名称映射",
+    "stat_month_brand": "月报品牌统计",
+    "stat_month_category": "月报分类统计",
+    "stat_month_category_brand": "月报分类与品牌统计",
+    "stat_month_category_brand_jd": "京东渠道月报分类与品牌统计",
+    "stat_month_category_jd": "月报京东分类统计",
+    "stat_month_channel": "月报供应商统计",
+    "stat_month_consume": "月报积分兑换统计",
+    "stat_month_consume_day": "月报按天兑换积分统计",
+    "stat_month_consume_order": "月报订单状态与商品数量",
+    "stat_month_consume_order_item": "月报子订单状态与商品数量",
+    "stat_month_keyword": "月报用户搜索统计",
+    "stat_month_member_point": "月报用户积分统计",
+    "stat_month_point": "月报用户积分导入与使用",
+    "stat_week_brand": "周报品牌统计",
+    "stat_week_category": "周报分类统计",
+    "stat_week_category_brand": "周报分类与品牌统计",
+    "stat_week_category_brand_jd": "京东渠道周报分类与品牌统计",
+    "stat_week_category_jd": "京东渠道周报分类统计",
+    "stat_week_channel": "周报渠道统计",
+    "stat_week_consume": "周报用户兑换积分统计",
+    "stat_week_consume_day": "周报按天积分兑换统计",
+    "stat_week_consume_order": "周报订单状态与商品数量",
+    "stat_week_consume_order_item": "周报子订单状态与商品数量",
+    "stat_week_keyword": "周报用户搜索统计",
+    "stat_week_point": "周报积分导入与使用",
+    "statistics_category_config": "指定分类按月统计分类配置",
+    "statistics_goods_sale": "商品销售统计",
+    "statistics_order_sale": "订单销售信息",
+    "statistics_pv_uv": "用户打点",
+    "sys_authority": "后台用户权限",
+    "sys_city": "城市",
+    "sys_distinct": "城市下面的区,县",
+    "sys_log": "系统日志",
+    "sys_permission": "菜单权限表",
+    "sys_province": "省份",
+    "sys_role": "角色表",
+    "sys_role_authority": "角色与权限默认关系表",
+    "sys_role_permission": "角色菜单权限表",
+    "sys_user_authority": "后台用户与权限关系",
+    "sys_user_role": "后台用户角色表",
+    "user_address": "会员收货地址表",
+    "user_permission": "比亚迪公司后台用户的导入积分权限",
+    "user_policies": "比亚迪公司后台用户导入积分政策关系"
+  },
+  "keywords": {
+    "original": [
+      {
+        "keyword": "公司",
+        "description": "公司是最上层数据结构, 公司有经销商;有大区,小区;"
+      },
+      {
+        "keyword": "支付类型",
+        "description": "属于每个公司的配置: \n积分支付: point_status,现金支付:cash_status,积分与现金混合支付mix_status.\n订单里可以通过cash_total确认支付时是否有现金, point_total确认支付时是否有积分"
+      },
+      {
+        "keyword": "大众",
+        "description": "公司, company.id=1"
+      },
+      {
+        "keyword": "捷达",
+        "description": "公司,company.id=2"
+      },
+      {
+        "keyword": "顺通海洋",
+        "description": "公司, company.id=3"
+      },
+      {
+        "keyword": "顺智王朝",
+        "description": "公司, company.id=4"
+      },
+      {
+        "keyword": "奥迪",
+        "description": "公司,company.id=5"
+      },
+      {
+        "keyword": "顺唯集团",
+        "description": "公司,company.id=6"
+      },
+      {
+        "keyword": "顺智启迪",
+        "description": "公司,company.id=7"
+      },
+      {
+        "keyword": "尚信优选",
+        "description": "公司,company.id=8"
+      },
+      {
+        "keyword": "众乐兑",
+        "description": "公司,company.id=9"
+      },
+      {
+        "keyword": "省政采",
+        "description": "公司,company.id=10"
+      },
+      {
+        "keyword": "比亚迪",
+        "description": "公司集合, 包括company.id: 3,4,6,7"
+      },
+      {
+        "keyword": "政策",
+        "description": "积分导入时的分类标记,配置在point_policies.policies, 在查询积分时不需要查询point_policies, 只需要用point_recharge_batch.policies筛选出批次即可"
+      },
+      {
+        "keyword": "品牌推荐,推荐品牌",
+        "description": "参考 前端商品分类与品牌的推荐配置 工作流"
+      },
+      {
+        "keyword": "分类推荐,推荐分类",
+        "description": "参考 前端商品分类与品牌的推荐配置 工作流"
+      },
+      {
+        "keyword": "京东",
+        "description": "商品渠道 channel.id=1的供应商"
+      },
+      {
+        "keyword": "自营",
+        "description": "除京东外的供应商 channel.id>1"
+      },
+      {
+        "keyword": "供应商,渠道",
+        "description": "channel商品供应商"
+      },
+      {
+        "keyword": "大区",
+        "description": "经销商所属的大区area.parent_id=0"
+      },
+      {
+        "keyword": "小区",
+        "description": "经销商所属的小区area.parent_id>0"
+      },
+      {
+        "keyword": "用户,会员",
+        "description": "members"
+      },
+      {
+        "keyword": "后台用户,创建人,更新人,确认人,审批人,审核人",
+        "description": "mall_admin_user"
+      },
+      {
+        "keyword": "配送类型,配送方式",
+        "description": "goods_info_new_test.logistics_type,category_on_sale_rule.logistics_type"
+      },
+      {
+        "keyword": "红包,优惠券",
+        "description": "coupon, 会员的红包是member_coupon"
+      },
+      {
+        "keyword": "即将过期积分",
+        "description": "表示point_recharge_detail里status=2 expired_at剩余14天的数据, residue表示当前的积分"
+      },
+      {
+        "keyword": "选品",
+        "description": "banner,秒杀,甄选这三种活动先进行选品,型成商品池,然后从选品的商品池中选择商品加入到活动中"
+      },
+      {
+        "keyword": "订单",
+        "description": "member_order是主订单, member_order_item是子订单"
+      },
+      {
+        "keyword": "上架",
+        "description": "goods_info_new_test.goods_sell_status=0"
+      },
+      {
+        "keyword": "下架",
+        "description": "goods_info_new_test.goods_sell_status=1"
+      },
+      {
+        "keyword": "商品审核状态",
+        "description": "goods_info_new_test.goods_sell_status=2,3,4"
+      },
+      {
+        "keyword": "失效商品",
+        "description": "goods_info_new_test.goods_sell_status=5"
+      },
+      {
+        "keyword": "会员",
+        "description": "指 members 表里的一条会员数据，通过 members.id 唯一标识"
+      },
+      {
+        "keyword": "用户",
+        "description": "指 members 表里的一条用户数据，通过 members.id 唯一标识，同会员"
+      },
+      {
+        "keyword": "经销商",
+        "description": "指 dealers 表里的一条经销商数据，通过 dealers.id 唯一标识"
+      },
+      {
+        "keyword": "公司",
+        "description": "指 company 表里的一条公司数据，通过 company.id 唯一标识"
+      },
+      {
+        "keyword": "商品",
+        "description": "指 goods_info_new_test 表里的一条商品数据，通过 goods_info_new_test.goods_id 唯一标识"
+      },
+      {
+        "keyword": "品牌",
+        "description": "指 brands 表里的一条品牌数据，通过 brands.id 唯一标识"
+      },
+      {
+        "keyword": "渠道",
+        "description": "指 channel 表里的一条渠道数据，通过 channel.id 唯一标识"
+      },
+      {
+        "keyword": "订单",
+        "description": "指 member_order 表里的一条订单数据，通过 member_order.id 唯一标识"
+      },
+      {
+        "keyword": "子订单",
+        "description": "指 member_order_item 表里的一条子订单数据，通过 member_order_item.id 唯一标识"
+      },
+      {
+        "keyword": "优惠券",
+        "description": "指 coupon 表里的一条优惠券数据，通过 coupon.coupon_id 唯一标识"
+      },
+      {
+        "keyword": "活动",
+        "description": "指 activity 表里的一条活动数据，通过 activity.id 唯一标识"
+      },
+      {
+        "keyword": "Banner",
+        "description": "指 banner 表里的一条 Banner 数据，通过 banner.id 唯一标识"
+      },
+      {
+        "keyword": "秒杀",
+        "description": "指 on_sale 表里的一条秒杀活动数据"
+      },
+      {
+        "keyword": "积分",
+        "description": "指会员积分相关数据，涉及 point_recharge_detail（积分充值明细）、point_consum（积分消费）等表"
+      },
+      {
+        "keyword": "结算",
+        "description": "指 settlement_batch（结算批次）、settlement_detail（结算明细）等结算相关表"
+      },
+      {
+        "keyword": "发票",
+        "description": "指 invoice 表里的一条发票数据，通过 invoice.id 唯一标识"
+      },
+      {
+        "keyword": "购物车",
+        "description": "指 shopping_cart_item 表里的购物车数据"
+      },
+      {
+        "keyword": "pCode",
+        "description": "指 members 表里的 p_code 字段，表示会员编码"
+      },
+      {
+        "keyword": "p_code",
+        "description": "会员编码字段，members.p_code"
+      },
+      {
+        "keyword": "goodsId",
+        "description": "指 goods_info_new_test 表里的 goods_id 字段，表示商品ID"
+      },
+      {
+        "keyword": "goods_id",
+        "description": "商品ID字段，goods_info_new_test.goods_id"
+      },
+      {
+        "keyword": "memberId",
+        "description": "指 members 表里的 id 字段，表示会员ID"
+      },
+      {
+        "keyword": "member_id",
+        "description": "会员ID字段，members.id"
+      },
+      {
+        "keyword": "dealerId",
+        "description": "指 dealers 表里的 id 字段，表示经销商ID"
+      },
+      {
+        "keyword": "dealer_id",
+        "description": "经销商ID字段，dealers.id"
+      },
+      {
+        "keyword": "companyId",
+        "description": "指 company 表里的 id 字段，表示公司ID"
+      },
+      {
+        "keyword": "company_id",
+        "description": "公司ID字段，company.id"
+      },
+      {
+        "keyword": "orderId",
+        "description": "指 member_order 表里的 id 字段，表示订单ID"
+      },
+      {
+        "keyword": "order_id",
+        "description": "订单ID字段，member_order.id"
+      },
+      {
+        "keyword": "couponId",
+        "description": "指 coupon 表里的 coupon_id 字段，表示优惠券ID"
+      },
+      {
+        "keyword": "coupon_id",
+        "description": "优惠券ID字段，coupon.coupon_id"
+      },
+      {
+        "keyword": "activityId",
+        "description": "指 activity 表里的 id 字段，表示活动ID"
+      },
+      {
+        "keyword": "activity_id",
+        "description": "活动ID字段，activity.id"
+      },
+      {
+        "keyword": "batchId",
+        "description": "批次ID字段，point_recharge_batch.id 或 settlement_batch.id"
+      },
+      {
+        "keyword": "batch_id",
+        "description": "批次ID字段，point_recharge_batch.id 或 settlement_batch.id"
+      },
+      {
+        "keyword": "batchCode",
+        "description": "批次编码字段，point_recharge_batch.batch_code 或 settlement_batch.batch_code"
+      },
+      {
+        "keyword": "batch_code",
+        "description": "批次编码字段，point_recharge_batch.batch_code 或 settlement_batch.batch_code"
+      },
+      {
+        "keyword": "goodsSellStatus",
+        "description": "商品销售状态字段，goods_info_new_test.goods_sell_status"
+      },
+      {
+        "keyword": "goods_sell_status",
+        "description": "商品销售状态字段，goods_info_new_test.goods_sell_status，0表示上架，1表示下架"
+      },
+      {
+        "keyword": "status",
+        "description": "状态字段，通常 0表示未开始/待处理，1表示进行中/已完成，2表示已结束/已拒绝"
+      },
+      {
+        "keyword": "type",
+        "description": "类型字段，用于区分不同业务场景"
+      },
+      {
+        "keyword": "isDeleted",
+        "description": "删除标记字段，is_deleted=0表示未删除，is_deleted=1表示已删除"
+      },
+      {
+        "keyword": "is_deleted",
+        "description": "删除标记字段，0表示未删除，1表示已删除"
+      },
+      {
+        "keyword": "delFlag",
+        "description": "删除标记字段，同 is_deleted，del_flag=0表示未删除，del_flag=1表示已删除"
+      },
+      {
+        "keyword": "del_flag",
+        "description": "删除标记字段，0表示未删除，1表示已删除"
+      },
+      {
+        "keyword": "createTime",
+        "description": "创建时间字段，记录数据创建的时间"
+      },
+      {
+        "keyword": "create_time",
+        "description": "创建时间字段，记录数据创建的时间"
+      },
+      {
+        "keyword": "updateTime",
+        "description": "更新时间字段，记录数据最后更新的时间"
+      },
+      {
+        "keyword": "update_time",
+        "description": "更新时间字段，记录数据最后更新的时间"
+      },
+      {
+        "keyword": "startAt",
+        "description": "开始时间字段"
+      },
+      {
+        "keyword": "start_at",
+        "description": "开始时间字段"
+      },
+      {
+        "keyword": "endAt",
+        "description": "结束时间字段"
+      },
+      {
+        "keyword": "end_at",
+        "description": "结束时间字段"
+      },
+      {
+        "keyword": "remark",
+        "description": "备注字段，记录额外说明信息"
+      },
+      {
+        "keyword": "goods_sell_status=0",
+        "description": "商品上架状态，goods_info_new_test.goods_sell_status=0"
+      },
+      {
+        "keyword": "goods_sell_status=1",
+        "description": "商品下架状态，goods_info_new_test.goods_sell_status=1"
+      },
+      {
+        "keyword": "上架",
+        "description": "将商品状态改为销售状态，指 goods_info_new_test.goods_sell_status=0"
+      },
+      {
+        "keyword": "下架",
+        "description": "将商品状态改为非销售状态，指 goods_info_new_test.goods_sell_status=1"
+      },
+      {
+        "keyword": "status=0",
+        "description": "可用、未开始、待处理、未抽中"
+      },
+      {
+        "keyword": "status=1",
+        "description": "已完成、进行中、已处理、可抽奖"
+      },
+      {
+        "keyword": "status=2",
+        "description": "不可用、已结束、已拒绝、中奖待确认收货地址"
+      },
+      {
+        "keyword": "status=3",
+        "description": "中奖已确认、地址已确认、已生成中奖订单"
+      },
+      {
+        "keyword": "is_deleted=0",
+        "description": "未删除，数据有效"
+      },
+      {
+        "keyword": "is_deleted=1",
+        "description": "已删除，数据无效"
+      },
+      {
+        "keyword": "del_flag=0",
+        "description": "未删除，数据有效"
+      },
+      {
+        "keyword": "del_flag=1",
+        "description": "已删除，数据无效"
+      },
+      {
+        "keyword": "activity_type=1",
+        "description": "秒杀活动"
+      },
+      {
+        "keyword": "activity_type=2",
+        "description": "Banner活动"
+      },
+      {
+        "keyword": "activity_type=3",
+        "description": "榜单活动"
+      },
+      {
+        "keyword": "activity_type=4",
+        "description": "甄选活动"
+      },
+      {
+        "keyword": "activity_type=6",
+        "description": "抽奖活动"
+      },
+      {
+        "keyword": "activity_type=7",
+        "description": "商品聚合页活动"
+      },
+      {
+        "keyword": "type=0",
+        "description": "关联订单的积分消费，point_consum.type=0"
+      },
+      {
+        "keyword": "type=1",
+        "description": "其他类型的积分消费，point_consum.type>0"
+      },
+      {
+        "keyword": "type=2",
+        "description": "积分转赠，point_consum.type=2"
+      },
+      {
+        "keyword": "中奖",
+        "description": "指 activity_item 表中记录会员中奖信息，activity_item.activity_level 不为 NULL 时表示中奖"
+      },
+      {
+        "keyword": "发货",
+        "description": "指 activity_item.activity_order_id 关联到 member_order.id，表示中奖后生成订单进行发货"
+      },
+      {
+        "keyword": "加购",
+        "description": "指 banner_add_on_item 表，表示加购商品配置"
+      },
+      {
+        "keyword": "选品",
+        "description": "指 goods_selection、goods_selection_detail 表，表示选品配置"
+      },
+      {
+        "keyword": "红冲",
+        "description": "指 invoice_red_apply、invoice_red_confirm 表，表示发票红冲操作"
+      },
+      {
+        "keyword": "冲票",
+        "description": "指 invoice_addition 表，表示经销商冲票"
+      },
+      {
+        "keyword": "上下架",
+        "description": "指 banner_on_off_record 表，表示 banner 上下架记录"
+      },
+      {
+        "keyword": "比价",
+        "description": "指 goods_relate_ 开头的表，表示商品比价相关"
+      },
+      {
+        "keyword": "转赠",
+        "description": "指 present_record 表，表示会员积分转赠"
+      },
+      {
+        "keyword": "拆单",
+        "description": "指 member_order_main 表，表示下单时拆单的组合"
+      },
+      {
+        "keyword": "换货",
+        "description": "指 member_order_item_replace_record、member_order_replace 表，表示订单换货"
+      },
+      {
+        "keyword": "结算",
+        "description": "指 settlement_batch、settlement_detail 等表，表示结算相关"
+      },
+      {
+        "keyword": "充值",
+        "description": "指 point_recharge_batch、point_recharge_detail 表，表示积分充值"
+      },
+      {
+        "keyword": "消费",
+        "description": "指 point_consum、point_consum_detail 表，表示积分消费"
+      },
+      {
+        "keyword": "退款",
+        "description": "指 order_item_refund 表，表示订单退款、退积分"
+      },
+      {
+        "keyword": "审核",
+        "description": "指 goods_audit_info、invoice_red_confirm 等表，表示审核操作"
+      },
+      {
+        "keyword": "确认",
+        "description": "指 invoice_red_confirm 等表，表示确认操作"
+      },
+      {
+        "keyword": "申请",
+        "description": "指 invoice_red_apply 等表，表示申请操作"
+      }
+    ],
+    "business_entities": {
+      "公司": "指 company 表里的一条公司数据，通过 company.id 唯一标识",
+      "订单": "指 member_order 表里的一条订单数据，通过 member_order.id 唯一标识",
+      "会员": "指 members 表里的一条会员数据，通过 members.id 唯一标识",
+      "用户": "指 members 表里的一条用户数据，通过 members.id 唯一标识，同会员",
+      "经销商": "指 dealers 表里的一条经销商数据，通过 dealers.id 唯一标识",
+      "商品": "指 goods_info_new_test 表里的一条商品数据，通过 goods_info_new_test.goods_id 唯一标识",
+      "品牌": "指 brands 表里的一条品牌数据，通过 brands.id 唯一标识",
+      "渠道": "指 channel 表里的一条渠道数据，通过 channel.id 唯一标识",
+      "子订单": "指 member_order_item 表里的一条子订单数据，通过 member_order_item.id 唯一标识",
+      "优惠券": "指 coupon 表里的一条优惠券数据，通过 coupon.coupon_id 唯一标识",
+      "活动": "指 activity 表里的一条活动数据，通过 activity.id 唯一标识",
+      "Banner": "指 banner 表里的一条 Banner 数据，通过 banner.id 唯一标识",
+      "秒杀": "指 on_sale 表里的一条秒杀活动数据",
+      "积分": "指会员积分相关数据，涉及 point_recharge_detail（积分充值明细）、point_consum（积分消费）等表",
+      "结算": "指 settlement_batch、settlement_detail 等表，表示结算相关",
+      "发票": "指 invoice 表里的一条发票数据，通过 invoice.id 唯一标识",
+      "购物车": "指 shopping_cart_item 表里的购物车数据",
+      "pCode": "指 members 表里的 p_code 字段，表示会员编码",
+      "goodsId": "指 goods_info_new_test 表里的 goods_id 字段，表示商品ID",
+      "memberId": "指 members 表里的 id 字段，表示会员ID",
+      "dealerId": "指 dealers 表里的 id 字段，表示经销商ID",
+      "companyId": "指 company 表里的 id 字段，表示公司ID",
+      "orderId": "指 member_order 表里的 id 字段，表示订单ID",
+      "couponId": "指 coupon 表里的 coupon_id 字段，表示优惠券ID",
+      "activityId": "指 activity 表里的 id 字段，表示活动ID",
+      "上架": "将商品状态改为销售状态，指 goods_info_new_test.goods_sell_status=0",
+      "下架": "将商品状态改为非销售状态，指 goods_info_new_test.goods_sell_status=1",
+      "中奖": "指 activity_item 表中记录会员中奖信息，activity_item.activity_level 不为 NULL 时表示中奖",
+      "发货": "指 activity_item.activity_order_id 关联到 member_order.id，表示中奖后生成订单进行发货",
+      "加购": "指 banner_add_on_item 表，表示加购商品配置",
+      "选品": "指 goods_selection、goods_selection_detail 表，表示选品配置",
+      "上下架": "指 banner_on_off_record 表，表示 banner 上下架记录",
+      "比价": "指 goods_relate_ 开头的表，表示商品比价相关",
+      "拆单": "指 member_order_main 表，表示下单时拆单的组合",
+      "换货": "指 member_order_item_replace_record、member_order_replace 表，表示订单换货",
+      "审核": "指 goods_audit_info、invoice_red_confirm 等表，表示审核操作"
+    },
+    "field_names": {
+      "p_code": "会员编码字段，members.p_code",
+      "goods_id": "商品ID字段，goods_info_new_test.goods_id",
+      "member_id": "会员ID字段，members.id",
+      "dealer_id": "经销商ID字段，dealers.id",
+      "company_id": "公司ID字段，company.id",
+      "order_id": "订单ID字段，member_order.id",
+      "coupon_id": "优惠券ID字段，coupon.coupon_id",
+      "activity_id": "活动ID字段，activity.id",
+      "batchId": "批次ID字段，point_recharge_batch.id 或 settlement_batch.id",
+      "batch_id": "批次ID字段，point_recharge_batch.id 或 settlement_batch.id",
+      "batchCode": "批次编码字段，point_recharge_batch.batch_code 或 settlement_batch.batch_code",
+      "batch_code": "批次编码字段，point_recharge_batch.batch_code 或 settlement_batch.batch_code",
+      "goods_sell_status": "商品销售状态字段，goods_info_new_test.goods_sell_status，0表示上架，1表示下架",
+      "status": "状态字段，通常 0表示未开始/待处理，1表示进行中/已完成，2表示已结束/已拒绝",
+      "type": "类型字段，用于区分不同业务场景",
+      "isDeleted": "删除标记字段，is_deleted=0表示未删除，is_deleted=1表示已删除",
+      "is_deleted": "删除标记字段，0表示未删除，1表示已删除",
+      "delFlag": "删除标记字段，同 is_deleted，del_flag=0表示未删除，del_flag=1表示已删除",
+      "del_flag": "删除标记字段，0表示未删除，1表示已删除",
+      "createTime": "创建时间字段，记录数据创建的时间",
+      "create_time": "创建时间字段，记录数据创建的时间",
+      "updateTime": "更新时间字段，记录数据最后更新的时间",
+      "update_time": "更新时间字段，记录数据最后更新的时间",
+      "startAt": "开始时间字段",
+      "start_at": "开始时间字段",
+      "endAt": "结束时间字段",
+      "end_at": "结束时间字段",
+      "remark": "备注字段，记录额外说明信息",
+      "goods_sell_status=0": "商品上架状态，goods_info_new_test.goods_sell_status=0",
+      "goods_sell_status=1": "商品下架状态，goods_info_new_test.goods_sell_status=1",
+      "status=0": "可用、未开始、待处理、未抽中",
+      "status=1": "已完成、进行中、已处理、可抽奖",
+      "status=2": "不可用、已结束、已拒绝、中奖待确认收货地址",
+      "status=3": "中奖已确认、地址已确认、已生成中奖订单",
+      "is_deleted=0": "未删除，数据有效",
+      "is_deleted=1": "已删除，数据无效",
+      "del_flag=0": "未删除，数据有效",
+      "del_flag=1": "已删除，数据无效",
+      "activity_type=1": "秒杀活动",
+      "activity_type=2": "Banner活动",
+      "activity_type=3": "榜单活动",
+      "activity_type=4": "甄选活动",
+      "activity_type=6": "抽奖活动",
+      "activity_type=7": "商品聚合页活动",
+      "type=0": "关联订单的积分消费，point_consum.type=0",
+      "type=1": "其他类型的积分消费，point_consum.type>0",
+      "type=2": "积分转赠，point_consum.type=2"
+    },
+    "status_values": {},
+    "business_processes": {
+      "选品": "banner,秒杀,甄选这三种活动先进行选品,型成商品池,然后从选品的商品池中选择商品加入到活动中",
+      "红冲": "指 invoice_red_apply、invoice_red_confirm 表，表示发票红冲操作",
+      "冲票": "指 invoice_addition 表，表示经销商冲票",
+      "转赠": "指 present_record 表，表示会员积分转赠",
+      "充值": "指 point_recharge_batch、point_recharge_detail 表，表示积分充值",
+      "消费": "指 point_consum、point_consum_detail 表，表示积分消费",
+      "退款": "指 order_item_refund 表，表示订单退款、退积分",
+      "确认": "指 invoice_red_confirm 等表，表示确认操作",
+      "申请": "指 invoice_red_apply 等表，表示申请操作"
+    }
+  },
+  "workflows": {
+    "抽奖活动": {
+      "name": "抽奖活动",
+      "description": "因为是奖品,所以中奖的member_order虽然有消费记录,包括point_consum,point_consum_detail,journal_account. 但对应的积分都是0,订单的total_price也是0",
+      "tables": [
+        "activity",
+        "activity_goods",
+        "activity_item",
+        "banner"
+      ],
+      "table_conditions": {
+        "activity": "抽奖活动主表",
+        "activity_goods": "抽奖活动奖品表,包括activity_level:奖品等级,goods_id可关联goods_info_new_test.goods_id获取奖品对应的商品信息",
+        "activity_item": "抽奖活动资格表\nmember_id可关联members获取资格所属的用户;\ndealer_id可关联dealers获取资格所属的经销商;\nactivity_level不为NULL时表示中奖;\nactivity_level可通过activity_item.activity_id = activity_goods.activity_id and activity_item.activity_level=activity_goods.activity_level 找到对应的奖品\ndeleted_at不为NULL表示抽奖资格失效, deleted_at是失效时间\norder_id中奖后生成的奖品订单, 可关联member_order.id 获取相信订单的信息\ncreated_at为得到抽奖资格时间\n抽奖资格对应订单:\n1. activity_order_id, 当activity_id in (1,6,7)时可直接关联member_order.id获取资格对应的订单信息\n2. activity_order_id, 当activity_id in (2,3,4)时可通过activity_order.id = member_order_main.main_order_id 获取组合订单表, 然后通过member_order_main.order_id = member_order.id获取对应订单.注意此时会有多条member_order\n3. 如果activity存在,并且activity_id>7时, 需要先查询一条对应的activity_item, 然后判断activity_order_id 是否<1亿. 小于时直接关联member_order, 大于时使用第2条关联\nlottery_at表示抽奖时间,注意抽奖不代表一定中奖\nstatus: 0 未抽中 1 可抽奖 2中奖待确认收货地址 3中奖已确认; 2时代表未生成中奖订单, 3表示地址已确认,已生成中奖订单",
+        "banner": "activity.id>1时会有对应的banner显示在前端, 可通过banner.additional=concat('[', activity.id, ']')来拿到对应的banner信息, 可加上banner.type=6过滤banner"
+      }
+    },
+    "前端活动排序": {
+      "name": "前端活动排序",
+      "description": "活动排序指的是banner,秒杀(on_sale),host_main在前端显示顺序",
+      "tables": [
+        "activity_sort"
+      ],
+      "table_conditions": {
+        "activity_sort": "type=1是商品详情页面排序\ntype=2是活动页面排序\n注意数据库中的排序并不准确, 实际需要通过  select * from banner where status = 1 and del_flag = 0 order by id desc 获取当前生效的banner, 然后根据activity_sort的id顺序排序, 然后每一条做校验\n如果activity_type=1,则是on_sale, 可只查询id=1的on_sale显示\n如果activity_type=3,则是hot_main, 可只查询id=1的hot_main显示\n如果activity_type=4, 则是banner, 需要判断此时的activity_id是否在生效的banner里, 如果不在跳过, 如果在显示.\n当遍例完activity_sort后, 确认是否还有未生效的banner 如果有则按顺序加到返回结果里"
+      }
+    },
+    "后台用户通知": {
+      "name": "后台用户通知",
+      "description": "比亚迪结算提示,供应商无上架商品提示,人工待处理订单提示,自营商品无货\n以上四种会通知部分后台用户",
+      "tables": [
+        "admin_user_notice"
+      ],
+      "table_conditions": {
+        "admin_user_notice": "type=0: 比亚迪结算提示\ntype=1: 供应商无上架商品提示\ntype=2: 人工待处理订单提示\ntype=3: 自营商品无货\n\nstatus=0表示未读,1表示已读\ncreated_at表示通知时间\nupdated_at在status=1时表示读通知时间\n可通过user_id关联到mall_admin_user.id 获取相关后台用户信息"
+      }
+    },
+    "经销商合同": {
+      "name": "经销商合同",
+      "description": "经销商先上传合同,审核通过后更新经销商状态",
+      "tables": [
+        "agreement",
+        "mall_admin_user",
+        "import_file",
+        "dealers"
+      ],
+      "table_conditions": {
+        "agreement": "dealer_id 可关联到dealers.id,获取合同所属经销商信息\nend_at表示合同到期时间\nback_user_id 合同上传人, 可通过mall_admin_user.id关联到上传人信息\nback_at表示合同文件上传时间\nconfirm_user_id合同确认人, 可通过mall_admin_user.id关联到确认人信息\nconfirm_at确认时间\nfile_id 非必要不要使用, 可通过此字段关联到import_file.id 获取file_name 与 content(base64的文件).\ntype: 0未确认1已确认2过期3拒收4合约到期\ncreated_at: 忽略这个字段\ncompany_id:可使用这个字段查询公司的合同. 只为查询用, 因为dealers也有company_id\nreason_of_rejection: 合同的拒收原因",
+        "mall_admin_user": "关联agreement的 back_user_id合同上传人, confirm_user_id合同确认人",
+        "import_file": "可通过agreement的file_id获取到上传文件名与文件(content字段,base64结构数据), 注意些表不要Join, 只允许通过id查询",
+        "dealers": "经销商表,agreement与dealers是多对一的关系. agreement影响dealers的signed字段"
+      }
+    },
+    "充许上传的文件": {
+      "name": "充许上传的文件",
+      "description": "通过allow_file确认用户可上传的文件格式",
+      "tables": [
+        "allow_file"
+      ],
+      "table_conditions": {}
+    },
+    "区域,大区,小区": {
+      "name": "区域,大区,小区",
+      "description": "经销商所属的大区与小区.\n注意当查询members会员,member_order订单, point_recharge_detail所属大区小区时都需要先关联dealers, 然后通过dealers表说明进行区域的关联",
+      "tables": [
+        "area",
+        "company",
+        "dealers"
+      ],
+      "table_conditions": {
+        "area": "区域表,注意此表是2层结构,parent_id=0表示大区;不为0表示小区,此时parent_id表示对应的大区id",
+        "company": "area属于company",
+        "dealers": "经销商属于area,注意经销商可能直属于大区,也可能属于一个小区. 所以在查询经销商所属大区与小区时可参考\nselect a.sale_code, case when b.parent_id = 0 then b.name else c.name end as `大区`, case when b.parent_id = 0 then '' else b.name end as `小区`\n from dealers as a\n join area as b on a.area_id = b.id\n left join area as c on c.id = b.parent_id"
+      }
+    },
+    "banner": {
+      "name": "banner",
+      "description": "一种活动, 分为:\ntype=1静态页;type=2商品详情;type=3商品专区;type=4加购;type=6抽奖活动;type=7商品聚合页",
+      "tables": [
+        "banner",
+        "activity",
+        "banner_add_on_item",
+        "banner_company",
+        "banner_goods_detail",
+        "goods_info_new_test",
+        "banner_on_off_record",
+        "banner_on_off_record_item",
+        "banner_out_goods",
+        "banner_stock_sms_mobile",
+        "coupon_activity",
+        "order_item_in_activity",
+        "member_order",
+        "goods_selection",
+        "goods_selection_detail",
+        "channel_activity_goods",
+        "goods_addition"
+      ],
+      "table_conditions": {
+        "banner": "name是banner的名称\nstatus是banner状态 0表示下线1表示上线\ntype表示类型,参考说明\nsort表示banner在主页的显示顺序\nbanner_url表示主页的显示图片地址\nredirect_url表示前端点击后的跳转地址, 注意当type=2时表示的是商品goods_id, 可通过banner.redirect_url=goods_info_new_test获取商品信息\nstart_at,end_at表示banner活动的开始与结束时间\ndiscount_price, type=2时生效,表示商品的折扣价\ndel_flag 软删除 查询时应该只查询del_flag=0的banner",
+        "activity": "type=6时生效, 可通过banner.additional = concat('[', activity.id, ']')关联, 或者取出 banner的additional,json集合结构: [activity.id], 取出对应的activity.id",
+        "banner_add_on_item": "type=4时保存对应的加购商品信息 goods_id表示主商品, on_item_id表示加购商品信息;\n通过banner_add_on_item.banner_id=banner.id关联\ndeleted_at表示删除时间",
+        "banner_company": "表示banner与公司company的关系. 如果没有对应的记录则相关公司不参予此banner活动\nbanner_id=banner.id\ncompany_id=company.id",
+        "banner_goods_detail": "type=2,3,7时生效, 保存banner里的商品信息 \nbanner_id=banner.id\n可通过goods_id关联goods_info_new_test.goods_id获取商品信息.\n注意此时price表示商品售价, sell_price表示原价, 价格不可使用goods_info_new里的价格",
+        "goods_info_new_test": "可通过banner_add_on_item,banner_goods_detail关联商品信息, 需要注意价格, 优先使用banner_add_on_item与 banner_goods_detail里的价格",
+        "banner_on_off_record": "banner的上下线与更新记录\ncategory: 0 banner上下架, 1 更新banner商品\ntype: 0下架1上架\n可通过banner_id=banner.id 获取到这些信息\nuser_id操作用户 关联mall_admin_user.id 可获取到操作人的信息\ncreated_at表示操作时间",
+        "banner_on_off_record_item": "可通过record_id=banner_on_off_record.id获取到;记录操作详细内容\ncategory=0时表示banner与公司company的关系, 对应company_id=company.id\ncategory=1时表示banner与商品的关系, 对应goods_id=goods_info_new_test.id",
+        "banner_out_goods": "定时任务记录banner中下架或无库存的商品, 用于发送商品低库存报警短信筛选商品, 只用于发送短信",
+        "banner_stock_sms_mobile": "发送低库存报警短信的配置, 里面配置了手机号",
+        "coupon_activity": "优惠券红包配置可使用的banner, 所以banner里的商品可使用对应的优惠券红包. coupon_activity.activity_id=banner.id",
+        "order_item_in_activity": "记录banner与订单的关系category=1时activity_id=banner.id, order_id可关联member_order.id获取订单信息, order_id+goods_id可关联member_order_item.order_id与goods_id. \n需要注意此表里的数据category=1时才是banner;  price表示使用优惠券后的价格",
+        "member_order": "可通过order_item_in_activity查询到订单信息\nadd_item_id不为null表示是加购订单时可关联到member_order_item.id查询到加购主订单里的子订单\nadd_on_item_id加购订单对应的banner_add_on_item.id",
+        "goods_selection": "选品, banner的商品只能通过选品选择, 可通过banner.id=goods_selection.banner_id查询到选品主表",
+        "goods_selection_detail": "选品详情表, selection_id=goods_selection.id, 此表记录选品的商品信息, 可通过goods_id=goods_info_new_test.goods_id关联商品信息.",
+        "channel_activity_goods": "生效中的banner并且有京东商品时会记录生效时京东商品的成本价,配送方式与商品名称.发生变化时显示变化\n不直接关联banner,需要banner下属的商品通过goods_id进行关联",
+        "goods_addition": "banner下的商品的划线价,原价. 可通过banner_goods_detail.goods_id=goods_addition.goods_id查询到;上线的banner可用"
+      }
+    },
+    "低库存报警短信": {
+      "name": "低库存报警短信",
+      "description": "上线的banner出现商品下架或低库存时向配置的手机号发送短信通知",
+      "tables": [
+        "banner_out_goods",
+        "banner_stock_sms_mobile"
+      ],
+      "table_conditions": {
+        "banner_out_goods": "定时任务记录banner中下架或无库存的商品, 用于发送商品低库存报警短信筛选商品, 只用于发送短信",
+        "banner_stock_sms_mobile": "发送低库存报警短信的配置, 里面配置了手机号"
+      }
+    },
+    "京东渠道商品名黑名单": {
+      "name": "京东渠道商品名黑名单",
+      "description": "",
+      "tables": [
+        "block_keyword"
+      ],
+      "table_conditions": {}
+    },
+    "甄选活动": {
+      "name": "甄选活动",
+      "description": "全公司可用,不需要与公司关联",
+      "tables": [
+        "boutique_sale",
+        "boutique_sale_goods",
+        "goods_selection",
+        "goods_selection_detail",
+        "goods_addition"
+      ],
+      "table_conditions": {
+        "boutique_sale": "可通过boutique_sale.id=boutique_sale_goods.sale_id 关联的详情表, 进而可以关联的商品信息",
+        "boutique_sale_goods": "可通过goods_id关联到goods_info_new_test.goods_id来获取商品信息,注意当Price不为Null时使用price来显示商品售价,sell_price显示商品原价; 当price为NULL时使用商品价格, stock不为NULL时使用stock做为库存, 为NULL时使用商品的库存;\nresidue_stock表示剩余库存",
+        "goods_selection": "选品, 甄选活动的商品只能通过选品选择, 可通过goods_selection.banner_id=2147483644 来获取选品主表, 进而可以关联到详情表拿到对应选品的商品信息",
+        "goods_selection_detail": "选品详情表, selection_id=goods_selection.id, 此表记录选品的商品信息, 可通过goods_id=goods_info_new_test.goods_id关联商品信息.",
+        "goods_addition": "甄选下的商品的划线价,原价. 可通过boutique_sale_goods.goods_id=goods_addition.goods_id查询到;"
+      }
+    },
+    "品牌": {
+      "name": "品牌",
+      "description": "商品对应的品牌",
+      "tables": [
+        "brands",
+        "goods_info_new_test",
+        "category_brand"
+      ],
+      "table_conditions": {
+        "brands": "品牌表, 忽略表里的channel_id,associate_id,gdf_id. 需要注意delete_flag=0是有效的",
+        "goods_info_new_test": "商品表,每个商品对应一个品牌, brands.id=goods_info_new_test.brand_id. 需要注意的是goods_info_new_test的brand_id为0时无法关联到品牌, 显示商品的品牌名称可以使用商品的brand_name字段.但不要使用brand_name做查询.",
+        "category_brand": "品牌与分类的多对多关系, 表示品牌有几个分类,分类有几个品牌, 可通过brands.id=category_brand.brand_id关联, 可通过category_id关联到goods_category_test.id"
+      }
+    },
+    "商务专员后台用户管理的渠道配置": {
+      "name": "商务专员后台用户管理的渠道配置",
+      "description": "只是配置",
+      "tables": [
+        "business_person_channel",
+        "mall_admin_user",
+        "channel_id"
+      ],
+      "table_conditions": {
+        "business_person_channel": "可通过user_id关联到mall_admin_user.id来获取商务专员的信息\n可通过channel_id关联到channel.id来获取对应的渠道信息",
+        "mall_admin_user": "business_person_channe里user_id所对应的后台用户信息",
+        "channel_id": "business_person_channe里channel_id所对应的渠道供应商信息"
+      }
+    },
+    "比亚迪公司结算": {
+      "name": "比亚迪公司结算",
+      "description": "比亚迪公司按dealers结算,注意比亚迪在系统里有多家公司. company.id包括3,4,6,7",
+      "tables": [
+        "byd_settlement_batch",
+        "byd_settlement_detail",
+        "member_order",
+        "member_order_item"
+      ],
+      "table_conditions": {
+        "byd_settlement_batch": "比亚迪公司结算批次表\ncreate_user_id结算人,confirm_user_id结算确认人,cancel_user_id取消结算人 可关联mall_admin_user.id获取后台用户信息\ncompany_id 所属公司 = company.id\ndealer_id 所属经销商= dealers.id",
+        "byd_settlement_detail": "结算详情, 属于结算批次,可关联到订单\nbatch_id关联byd_settlement_batch.id\norder_id可查询到对应的member_order.id\norder_item_id可查询到对应的member_order_item.id",
+        "member_order": "通过byd_settlement_detail.order_id可以查询到对应的订单信息",
+        "member_order_item": "通过byd_settlement_detail.order_item_id可以查询到对应的子订单信息"
+      }
+    },
+    "大众公司购车专用车系": {
+      "name": "大众公司购车专用车系",
+      "description": "只是配置,只用于大众公司购车",
+      "tables": [
+        "car_series",
+        "car_type"
+      ],
+      "table_conditions": {
+        "car_series": "车系",
+        "car_type": "车系下的车型,通过car_series_id关联car_series.id"
+      }
+    },
+    "品牌与分类关系": {
+      "name": "品牌与分类关系",
+      "description": "品牌与分类多对多关系",
+      "tables": [
+        "category_brand",
+        "brands",
+        "goods_category_test"
+      ],
+      "table_conditions": {
+        "category_brand": "关系表 分类: category_id=goods_category_test.id, 品牌: brand_id=brands.id",
+        "brands": "品牌表,可查询出品牌名称",
+        "goods_category_test": "商品分类表, 固定三级结构category_level:1,2,3表示个等级, parent_id表示父级分类的id, 一级分类的parent_id=0"
+      }
+    },
+    "前端显示的合并一级分类": {
+      "name": "前端显示的合并一级分类",
+      "description": "多个一级分类合并显示",
+      "tables": [
+        "category_merge",
+        "category_merge_item",
+        "goods_category_test"
+      ],
+      "table_conditions": {
+        "category_merge": "recommend_name: 合并后显示的名称",
+        "category_merge_item": "属于category_merge, category_merge_id=category_merge.id\ncategory_id=goods_category_test.id 可以关联到商品分类",
+        "goods_category_test": "商品分类表, 固定三级结构category_level:1,2,3表示个等级, parent_id表示父级分类的id, 一级分类的parent_id=0"
+      }
+    },
+    "商品自动上下架规则": {
+      "name": "商品自动上下架规则",
+      "description": "配置,定时任务会根据利润率自动上下架商品",
+      "tables": [
+        "category_on_sale_rule",
+        "category_on_sale_rule_brand",
+        "category_on_sale_rule_his",
+        "category_on_sale_rule_brand_his",
+        "goods_category_test"
+      ],
+      "table_conditions": {
+        "category_on_sale_rule": "生效的配置规则,导入或人工创建,导入的没有申请人与审批人.人工创建的由category_on_sale_rule_his审批后创建,所以创建的有his_id\ncategory_id可关联goods_category_test.id 非必要不需要关联,可以直接使用category_name显示分类名称\nhis_id历名规则可关联category_on_sale_rule_his.id 获取规则来源\napply_uid:申请人,audit_uid:审批人. 可关联到mall_admin_user.id获取人员信息, 注意这两个字段可能为null,使用Join表时需要left join mall_admin_user",
+        "category_on_sale_rule_brand": "当category_on_sale_rule的all_brand_forbidden=0时关联rule包括的品牌\nrule_id=category_on_sale_rule.id\nbrand_id=banner.id, 非必要不需要关联, 品牌名可直接通过brand_name获取品牌名",
+        "category_on_sale_rule_his": "历史规则,审批通过后生成category_on_sale_rule\ncategory_id可关联goods_category_test.id\napply_uid:申请人,audit_uid:审批人. 可关联到mall_admin_user.id获取人员信息\norigin_rule_id=category_on_sale_rule.id 可获取到当前生效的配置规则",
+        "category_on_sale_rule_brand_his": "category_on_sale_rule_his的多个品牌配置\nrule_id=category_on_sale_rule_his.id\ncategory_id可关联goods_category_test.id\nbrand_id=banner.id, 非必要不需要关联, 品牌名可直接通过brand_name获取品牌名",
+        "goods_category_test": "商品分类表, 固定三级结构category_level:1,2,3表示个等级, parent_id表示父级分类的id, 一级分类的parent_id=0"
+      }
+    },
+    "京东商品替换规则": {
+      "name": "京东商品替换规则",
+      "description": "配置,配置中京东的分类商品符合条件可替换为自营商品",
+      "tables": [
+        "category_replace_jd_goods_rule",
+        "goods_category_test"
+      ],
+      "table_conditions": {
+        "category_replace_jd_goods_rule": "goods_category_id可关联到goods_category_test.id获取分类信息, 非必要不需要关联,可以直接使用goods_category_name. 注意这里一定是三级分类, 如果需要获取二级,一级分类.需要关联查询",
+        "goods_category_test": "商品分类表, 固定三级结构category_level:1,2,3表示个等级, parent_id表示父级分类的id, 一级分类的parent_id=0"
+      }
+    },
+    "渠道,供应商": {
+      "name": "渠道,供应商",
+      "description": "商品所属的供应商",
+      "tables": [
+        "channel"
+      ],
+      "table_conditions": {
+        "channel": "channel存在两级结构parent_id=0表示没有上级 不为0时是上级的id"
+      }
+    },
+    "京东活动成本价记录": {
+      "name": "京东活动成本价记录",
+      "description": "",
+      "tables": [
+        "channel_activity_goods"
+      ],
+      "table_conditions": {
+        "channel_activity_goods": "记录banner,秒杀京东渠道商品的成本价,配送方式,商品名. 当发生变化时在后台banner,秒杀配置页面显示商品变化"
+      }
+    },
+    "自营渠道可售商品分类与品牌": {
+      "name": "自营渠道可售商品分类与品牌",
+      "description": "配置非京东供应商的可售卖的分类与分类下的品牌",
+      "tables": [
+        "channel_category_brand",
+        "channel",
+        "goods_category_test",
+        "brands"
+      ],
+      "table_conditions": {
+        "channel_category_brand": "只影响供应商创建商品时可选的分类与品牌\nchannel_id关联channel.id 可获取供应商信息",
+        "channel": "channel_category_brand所属的供应商 channel_id=channe.id",
+        "goods_category_test": "one_lever_category,two_lever_category,three_lever_category 分别关联gooods_category_test.id的一级,二级,三级分类",
+        "brands": "可通过brand_id=brands.id获取品牌信息"
+      }
+    },
+    "自营渠道供应商商品上下架状态": {
+      "name": "自营渠道供应商商品上下架状态",
+      "description": "注意只是供应商上下架状态不是商品实际状态",
+      "tables": [
+        "channel_goods_status",
+        "channel"
+      ],
+      "table_conditions": {
+        "channel_goods_status": "goods_id=goods_info_new_test.goods_id 可获取商品信息",
+        "channel": "可通过goods_info_test_test 拿到所属供应商"
+      }
+    },
+    "渠道,供应商结算": {
+      "name": "渠道,供应商结算",
+      "description": "自营渠道结算\n供应商存在两级,所以结算有父级渠道结算与子级渠道结算",
+      "tables": [
+        "channel_statement",
+        "channel_statement_check",
+        "channel_statement_item",
+        "channel",
+        "dealers"
+      ],
+      "table_conditions": {
+        "channel_statement": "结算主表, channel_id可关联到channel.id",
+        "channel_statement_check": "结算自助核对, 只作核对,显示有没有错误, statement_id=channel_statement.id\nitem_order_no子订单号可关联到member_order_item.channel_order_id\nparent_order_no订单号可关联到member_order.order_no\n本表有goods_name,有需要可直接显示",
+        "channel_statement_item": "结算详情表\nstatement_id可关联到channel_statement.id\norder_id 子订单ID member_order_item.id, type=1运费时为主订单ID member_order.id\nconfirm_user 确认人\nchannel_id 渠道ID\ndealer_id 订单所属经销商可关联deaers.id\nmain_statement_id 父级渠道结算id channel_statement.id\nmain_channel_id 父级渠道id channel.id",
+        "channel": "渠道",
+        "dealers": "可通过channel_statement_item.dealer_id关联dealers.id 获取经销商信息"
+      }
+    },
+    "公司": {
+      "name": "公司",
+      "description": "顶层表",
+      "tables": [
+        "company"
+      ],
+      "table_conditions": {
+        "company": "area区域, dealers经销商, members会员, member_order订单, point_recharge_batch积分导入批次及以上表的下级表都属于一家公司"
+      }
+    },
+    "优惠券,红包": {
+      "name": "优惠券,红包",
+      "description": "后台创建红包,用户获得红包,下订总单时使用红包",
+      "tables": [
+        "coupon",
+        "coupon_activity",
+        "coupon_category",
+        "coupon_company",
+        "coupon_goods",
+        "coupon_log",
+        "member_coupon",
+        "coupon_order_item"
+      ],
+      "table_conditions": {
+        "coupon": "红包信息表,主表\ncreator创建人, updater更新人 可关联到mall_admin_user.id 获取到操作人的信息",
+        "coupon_activity": "红包指定活动关联表, 当指定了banner,表示banner下的所有商品可以使用红包",
+        "coupon_category": "coupon_id关联coupon.id\n红包与商品分类的关系, goods_category_id可关联goods_category_test, 注意 type: 0 表示排除 1表示包括",
+        "coupon_company": "红包与公司的关系\ncoupon_id关联coupon.id\ncompany_id关联company.id",
+        "coupon_goods": "红包与商品的关系\ncoupon_id关联coupon.id\ngoods_id关联goods_info_new_test.goods_id",
+        "coupon_log": "优惠券,红包数据变化记录表\n记录表,coupon_id关联到coupon.id",
+        "member_coupon": "members得到的红包\ncoupon_id可关联coupon.id获取红包详情\nmember_id可关联members获取会员信息\nmain_order_id使用红包时关联到的member_order_main.main_order_id 获取组合订单表, 具体订单信息可查看coupon_order_item\ncompany_id可关联到company.id, 这个字段用于筛选公司下的红包",
+        "coupon_order_item": "member_coupon与订单的关系表\nmember_coupon_id关联member_coupon.id\nmember_id关联members.id\norder_id关联member_order.id\norder_item_id关联member_order_item.id\n注意deleted_at, 不为Null表示红包失效"
+      }
+    },
+    "经销商": {
+      "name": "经销商",
+      "description": "经销商属于公司,可能属于某个区域,销商有会员",
+      "tables": [
+        "dealers",
+        "dealer_link"
+      ],
+      "table_conditions": {
+        "dealers": "经销商信息\narea_id=area.id 可查询dealers所属的区域\ncompany_id=company.id可查询dealers所属的公司",
+        "dealer_link": "经销商父子级关系表,只有部分经销商有\ndealer_id=dealer.id 子级\nparent_id=dealers.id 父级"
+      }
+    },
+    "经销商充值": {
+      "name": "经销商充值",
+      "description": "经销商充值,退款,充值文件",
+      "tables": [
+        "dealer_recharge_file",
+        "dealer_recharge_order",
+        "dealer_recharge_record",
+        "dealer_refund_record"
+      ],
+      "table_conditions": {
+        "dealer_recharge_file": "经销商充值文件记录表\nfile_id 非必要不要使用, 可通过此字段关联到import_file.id 获取file_name 与 content(base64的文件).",
+        "dealer_recharge_order": "经销商余额与订单关系表\ndealer_id=dealers.id\nrecharge_id=dealer_recharge_record.id 注意recharge_id可能为0, 0时为换货的订单\norder_id=member_order.id 可获到订单信息",
+        "dealer_recharge_record": "经销商充值记录表\ndealer_id=dealers.id\naudit_user=mall_admin_user.id 审核人\nimport_file_id=dealer_recharge_file.id\ncompany_id=company.id",
+        "dealer_refund_record": "经销商退款记录\ndealer_id=dealers.id\napply_user_id=mall_admin_user.id 申请人\nconfirm_user_id=mall_admin_user.id 确认人\ncompany_id=company.id 所属公司"
+      }
+    },
+    "经销商后台用户阅读使用说明记录": {
+      "name": "经销商后台用户阅读使用说明记录",
+      "description": "",
+      "tables": [
+        "dealer_user_guide_reading_record"
+      ],
+      "table_conditions": {
+        "dealer_user_guide_reading_record": "dealer_id=dealers.id"
+      }
+    },
+    "用户即将过期记录": {
+      "name": "用户即将过期记录",
+      "description": "expired_table_main.created_at取年月日表示这一天的同一批数据",
+      "tables": [
+        "expired_table_main",
+        "expired_table"
+      ],
+      "table_conditions": {
+        "expired_table_main": "member_id=members.id",
+        "expired_table": "main_id=expired_table_main.id 表示会员即将过期批次详情\nrecharge_id=point_recharge_detail.id 关联积分详情\nresidue 表示数据生成时的point_recharge_detail.residue的积分"
+      }
+    },
+    "浮窗": {
+      "name": "浮窗",
+      "description": "前端的浮窗配置",
+      "tables": [
+        "floating_window",
+        "floating_window_company"
+      ],
+      "table_conditions": {
+        "floating_window_company": "浮窗与公司的关系,有关系才在公司下的用户显示"
+      }
+    },
+    "运费模版": {
+      "name": "运费模版",
+      "description": "渠道供应商运费的配置",
+      "tables": [
+        "freight_template",
+        "freight_template_item",
+        "freight_channel_goods"
+      ],
+      "table_conditions": {
+        "freight_template": "channel_id=channel.id 渠道关系\ncreate_user=mall_admin_user.id 创建人\nupdate_user=mall_admin_user.id 更新人",
+        "freight_template_item": "运费模版与省份绑定关系\ntemplate_id=freight_template.id\nprovince_id=sys_province.id 关联的城市",
+        "freight_channel_goods": "freight_template与商品的关联表\nchannel_id=channel.id\nfreight_template_id=freight_template.id\nsku_id=goods_info_new_test.channel_sku_id, 可关联到商品"
+      }
+    },
+    "商品": {
+      "name": "商品",
+      "description": "商品有渠道,分类,品牌所属.\ngoods_info_new_detail_test不可以使用Join 只能使用goods_id查\ngoods_info_new_test 查询必须使用索引",
+      "tables": [
+        "goods_info_new_test",
+        "goods_category_test",
+        "goods_img_change",
+        "goods_info_new_detail_test",
+        "goods_audit_info",
+        "channel",
+        "brands",
+        "goods_price_audit_info",
+        "goods_price_update_record",
+        "goods_reject_reason",
+        "goods_update_info"
+      ],
+      "table_conditions": {
+        "goods_info_new_test": "商品主表",
+        "goods_category_test": "上级表,商品分类",
+        "goods_img_change": "商品图片更改记录",
+        "goods_info_new_detail_test": "记录商品信息的详情,微信详情,轮播图,产地,包装清单,规格参数,重量,简价",
+        "goods_audit_info": "商品审核记录",
+        "channel": "上级表,商品所属渠道",
+        "brands": "上级表,商品所属品牌. 注意brand_id可能为0, 为0时取brand_name做为商品品牌",
+        "goods_price_audit_info": "商品成本价修改审批",
+        "goods_price_update_record": "商品销售价更改记录",
+        "goods_reject_reason": "商品审核拒绝原因, id=goods_info_new_test.goods_id",
+        "goods_update_info": "商品名与成本价更改记录"
+      }
+    },
+    "商品京东链接比价": {
+      "name": "商品京东链接比价",
+      "description": "goods_jd_relate_his 审核后生成goods_jd_relate\n商品审核后如果没有goods_jd_relate 生成goods_jd_relate\ngoods_jd_relate生成goods_jd_relate_task",
+      "tables": [
+        "goods_jd_relate_task",
+        "goods_jd_relate_his",
+        "goods_jd_relate",
+        "goods_profit_config"
+      ],
+      "table_conditions": {
+        "goods_profit_config": "比价利润率配置表"
+      }
+    },
+    "商品月限购": {
+      "name": "商品月限购",
+      "description": "配置, 如果存在,则商品每人每月限购",
+      "tables": [
+        "goods_max_buy",
+        "goods_info_new_test"
+      ],
+      "table_conditions": {
+        "goods_info_new_test": "上级表"
+      }
+    },
+    "商品比价": {
+      "name": "商品比价",
+      "description": "商品比价",
+      "tables": [
+        "goods_relate_check_record",
+        "goods_relate_error_record",
+        "goods_relate_ignore",
+        "goods_relate_period_config",
+        "goods_relate_period_config_batch"
+      ],
+      "table_conditions": {
+        "goods_relate_check_record": "商品比价结果",
+        "goods_relate_error_record": "商品比价错误上报",
+        "goods_relate_ignore": "商品忽略比价",
+        "goods_relate_period_config": "商品比价分类表",
+        "goods_relate_period_config_batch": "商品比价配置主表"
+      }
+    },
+    "商品分类": {
+      "name": "商品分类",
+      "description": "商品的分类配置",
+      "tables": [
+        "goods_category_test"
+      ],
+      "table_conditions": {
+        "goods_category_test": "三级结构, category_level:1,2,3 表示级别,parent_id表示上级id, 一级分类 parent_id=0"
+      }
+    },
+    "选品": {
+      "name": "选品",
+      "description": "",
+      "tables": [
+        "goods_selection",
+        "goods_selection_audit_record",
+        "goods_selection_detail"
+      ],
+      "table_conditions": {
+        "goods_selection": "主表banner_id,可查询到对应的banner, banner_id=2147483647是秒杀,2147483646是榜单,2147483644是甄选",
+        "goods_selection_audit_record": "选品审核记录",
+        "goods_selection_detail": "选品详情表"
+      }
+    },
+    "开票": {
+      "name": "开票",
+      "description": "",
+      "tables": [
+        "goods_self_invoice_info"
+      ],
+      "table_conditions": {
+        "goods_self_invoice_info": "自营商品开票信息"
+      }
+    },
+    "商品管理员转交异常信息给商务专员记录": {
+      "name": "商品管理员转交异常信息给商务专员记录",
+      "description": "",
+      "tables": [
+        "goods_transfer_business"
+      ],
+      "table_conditions": {}
+    },
+    "榜单": {
+      "name": "榜单",
+      "description": "",
+      "tables": [
+        "hot_list",
+        "hot_list_config",
+        "hot_main"
+      ],
+      "table_conditions": {
+        "hot_list": "商品榜单列表 company.id=hot_main.id",
+        "hot_list_config": "榜单商品配置, 用于补全列表 company.id=hot_main.id",
+        "hot_main": "id=company.id"
+      }
+    },
+    "前端搜索页面推荐商品配置": {
+      "name": "前端搜索页面推荐商品配置",
+      "description": "",
+      "tables": [
+        "index_config"
+      ],
+      "table_conditions": {
+        "index_config": "注意必须type=7"
+      }
+    },
+    "发票": {
+      "name": "发票",
+      "description": "开给经销商的发票",
+      "tables": [
+        "invoice",
+        "invoice_addition",
+        "invoice_order",
+        "invoice_order_addition",
+        "invoice_red_apply",
+        "invoice_red_confirm",
+        "invoice_red_confirm_goods",
+        "invoice_request_info",
+        "invoice_request_info_goods"
+      ],
+      "table_conditions": {
+        "invoice": "经销商发票信息表",
+        "invoice_addition": "经销商冲票",
+        "invoice_order": "发票订单关系表",
+        "invoice_order_addition": "发票与子订单关系表",
+        "invoice_red_apply": "红票表",
+        "invoice_red_confirm": "红票确认",
+        "invoice_red_confirm_goods": "红票确认商品",
+        "invoice_request_info": "发票信息表",
+        "invoice_request_info_goods": "发票信息商品表"
+      }
+    },
+    "后台账号登录IP限制黑白名单": {
+      "name": "后台账号登录IP限制黑白名单",
+      "description": "",
+      "tables": [
+        "ip_table"
+      ],
+      "table_conditions": {}
+    },
+    "京东订单流水,交易记录": {
+      "name": "京东订单流水,交易记录",
+      "description": "",
+      "tables": [
+        "jd2_balance_record"
+      ],
+      "table_conditions": {}
+    },
+    "会员积分流水": {
+      "name": "会员积分流水",
+      "description": "",
+      "tables": [
+        "journal_account",
+        "point_consum",
+        "point_recharge_detail"
+      ],
+      "table_conditions": {
+        "journal_account": "积分流水记录",
+        "point_consum": "上级表,consume_id=point_consum.id 可关联到消费记录",
+        "point_recharge_detail": "当type=0充值时 可关联到对应的充值记录 detail_id=point_recharge_detail.id"
+      }
+    },
+    "后台用户": {
+      "name": "后台用户",
+      "description": "",
+      "tables": [
+        "mall_admin_user",
+        "mall_admin_user_permission"
+      ],
+      "table_conditions": {
+        "mall_admin_user": "包括管理用户, 公司用户,渠道用户,经销商用户. 公司用户管理下属经销商与会员,导入积分; 渠道用户管理渠道的商品. 经销商用户可管理下属会员,开票",
+        "mall_admin_user_permission": "部分用户特殊权限"
+      }
+    },
+    "人工修改京东商品上下架记录": {
+      "name": "人工修改京东商品上下架记录",
+      "description": "",
+      "tables": [
+        "manual_goods"
+      ],
+      "table_conditions": {}
+    },
+    "购车": {
+      "name": "购车",
+      "description": "大众会员专属功能, 可用积分支付抵扣部分车款",
+      "tables": [
+        "member_buy_car_apply",
+        "members",
+        "dealers",
+        "point_consum",
+        "mall_admin_user"
+      ],
+      "table_conditions": {
+        "members": "member_id=members.id",
+        "dealers": "dealer_id=dealers.id",
+        "point_consum": "对应的积分消费记录id=point_consum.order_id and type=3, type=3是必要条件",
+        "mall_admin_user": "audit_id,finish_id=mall_admin_user.id"
+      }
+    },
+    "会员通知": {
+      "name": "会员通知",
+      "description": "",
+      "tables": [
+        "member_notice",
+        "members"
+      ],
+      "table_conditions": {
+        "member_notice": "通知信息",
+        "members": "member_id=members.id"
+      }
+    },
+    "用户会员操作记录": {
+      "name": "用户会员操作记录",
+      "description": "查询时选择一张表查询就可以",
+      "tables": [
+        "member_op_record",
+        "recommend_uv",
+        "statistics_pv_uv",
+        "member_search_record"
+      ],
+      "table_conditions": {
+        "member_op_record": "op_type=点击, 搜索,浏览",
+        "recommend_uv": "用户操作打点,type=0商品搜索1商品详情2加入购物车, banner=2147483647 秒杀 2147483646 榜单 2147483645, 其它是banner",
+        "statistics_pv_uv": "前端传的打点",
+        "member_search_record": "会员,用户搜索记录"
+      }
+    },
+    "订单": {
+      "name": "订单",
+      "description": "",
+      "tables": [
+        "member_order",
+        "member_order_main",
+        "member_order_addition",
+        "member_order_item",
+        "member_order_item_offline_record",
+        "member_order_item_replace_record",
+        "member_order_item_service_state",
+        "member_order_item_unconfirm_manu_record",
+        "member_order_manual",
+        "member_order_replace",
+        "member_order_replace_goods",
+        "member_order_replace_item",
+        "member_order_service_refund",
+        "member_order_service_refund_item",
+        "members",
+        "dealers",
+        "company",
+        "channel",
+        "order_pay_info",
+        "point_consum",
+        "order_deliver_info",
+        "order_address"
+      ],
+      "table_conditions": {
+        "member_order": "主订单,每条代表一个渠道",
+        "member_order_main": "多渠道下单时关联表,同批次订单有同一个 main_order_id, order_id=member_order.id",
+        "member_order_addition": "订单支付时与所属经销商余额变化记录",
+        "member_order_item": "子订单,每条代表一个商品",
+        "member_order_item_offline_record": "待回退设置换货记录",
+        "member_order_item_replace_record": "订单换货记录",
+        "member_order_item_service_state": "京东渠道服务单记录",
+        "member_order_item_unconfirm_manu_record": "人工待确认订单原因",
+        "member_order_manual": "人工待确认订单处理分发后台用户处理",
+        "member_order_replace": "待回退设置换货记录",
+        "member_order_replace_goods": "订单线下换货商品信息",
+        "member_order_replace_item": "订单线下换货子订单信息",
+        "member_order_service_refund": "京东服务退单",
+        "member_order_service_refund_item": "京东服务退单详情",
+        "members": "订单所属会员member_id=members.id",
+        "dealers": "订单所属经销商dealer_id=dealers.id 订单所属经销商一定是用dealer_id 不能使用members.dealer_id",
+        "company": "订单所属公司company_id=company.id",
+        "channel": "订单所属渠道channel_id=channel.id",
+        "order_pay_info": "带现金支付的订单对应的支付记录 pay_id=order_pay_info.id",
+        "point_consum": "订单对应的积分消费, id=point_consum.order_id and point_consum.type=0",
+        "order_deliver_info": "子订单的物流信息, 多条子订单可能对应一条物流 channel_order_id = member_order_item.channel_order_id",
+        "order_address": "下单的地址信息order_id=member_order.id"
+      }
+    },
+    "用户,会员": {
+      "name": "用户,会员",
+      "description": "",
+      "tables": [
+        "members",
+        "dealers",
+        "company",
+        "member_dealer_relation"
+      ],
+      "table_conditions": {
+        "dealers": "dealer_id=dealers.id 会员所属经销商",
+        "company": "company_id=company.id 会员所属公司",
+        "member_dealer_relation": "多经销商会员用户与经销商关系表"
+      }
+    },
+    "无票订单": {
+      "name": "无票订单",
+      "description": "",
+      "tables": [
+        "none_invoice_order",
+        "member_order"
+      ],
+      "table_conditions": {
+        "none_invoice_order": "无票订单申请与审核",
+        "member_order": "order_id=member_order.id"
+      }
+    },
+    "系统公告": {
+      "name": "系统公告",
+      "description": "",
+      "tables": [
+        "notice",
+        "notice_company",
+        "notice_read",
+        "members"
+      ],
+      "table_conditions": {
+        "notice_company": "公告与公司的关系",
+        "notice_read": "已阅读公告的会员记录 user_id=members.id"
+      }
+    },
+    "后台通知": {
+      "name": "后台通知",
+      "description": "",
+      "tables": [
+        "notification"
+      ],
+      "table_conditions": {}
+    },
+    "秒杀": {
+      "name": "秒杀",
+      "description": "",
+      "tables": [
+        "on_sale",
+        "on_sale_goods",
+        "channel_activity_goods",
+        "goods_addition",
+        "company",
+        "order_item_in_activity",
+        "goods_selection"
+      ],
+      "table_conditions": {
+        "on_sale": "秒杀主表",
+        "on_sale_goods": "秒杀商品表",
+        "channel_activity_goods": "秒杀有京东商品时会记录生效时京东商品的成本价,配送方式与商品名称.发生变化时显示变化\n不直接关联banner,需要banner下属的商品通过goods_id进行关联",
+        "goods_addition": "秒杀商品活动价与最低利润率配置",
+        "company": "company_id=company.id 秒杀所属公司",
+        "order_item_in_activity": "category=2, activity_id=on_sale_goods.id",
+        "goods_selection": "banner_id=2147483647是秒杀"
+      }
+    },
+    "订单退款,退积分": {
+      "name": "订单退款,退积分",
+      "description": "",
+      "tables": [
+        "order_item_refund"
+      ],
+      "table_conditions": {}
+    },
+    "订单现金支付信息表": {
+      "name": "订单现金支付信息表",
+      "description": "",
+      "tables": [
+        "order_pay_info"
+      ],
+      "table_conditions": {
+        "order_pay_info": "包括支付与退款"
+      }
+    },
+    "平台使用指南信息": {
+      "name": "平台使用指南信息",
+      "description": "",
+      "tables": [
+        "platform_instruction"
+      ],
+      "table_conditions": {}
+    },
+    "常见问题": {
+      "name": "常见问题",
+      "description": "",
+      "tables": [
+        "platform_qa"
+      ],
+      "table_conditions": {}
+    },
+    "平台服务规则": {
+      "name": "平台服务规则",
+      "description": "",
+      "tables": [
+        "platform_rule"
+      ],
+      "table_conditions": {}
+    },
+    "积分消费": {
+      "name": "积分消费",
+      "description": "消费包括,订单,过期,转让,购车",
+      "tables": [
+        "point_consum",
+        "point_consum_detail",
+        "journal_account"
+      ],
+      "table_conditions": {
+        "point_consum": "消费主表",
+        "point_consum_detail": "消费详情与, recharge_detail_id = point_recharge_detail.id 可关联充值详情表",
+        "journal_account": "流水表,consume_id=point_consum.id"
+      }
+    },
+    "积分政策": {
+      "name": "积分政策",
+      "description": "",
+      "tables": [
+        "point_policies",
+        "company",
+        "point_recharge_batch",
+        "mall_admin_user"
+      ],
+      "table_conditions": {
+        "company": "政策所属公司company_id=company.id",
+        "point_recharge_batch": "导入积分时,导入人的公司必须与point_policies里一致, policies=point_policies.policies",
+        "mall_admin_user": "department_id=mall_admin_user.department_id, 表示后台人员可导入的政策,一个department_id可对应多个后台账号,可对应多条Point_policies"
+      }
+    },
+    "积分导入,积分充值": {
+      "name": "积分导入,积分充值",
+      "description": "",
+      "tables": [
+        "point_recharge_batch",
+        "point_recharge_detail",
+        "company"
+      ],
+      "table_conditions": {
+        "point_recharge_batch": "导入的积分批次",
+        "point_recharge_detail": "批次详情batch_id=point_recharge_batch.id",
+        "company": "所属公司"
+      }
+    },
+    "积分批次撤销记录": {
+      "name": "积分批次撤销记录",
+      "description": "",
+      "tables": [
+        "point_revoke_record",
+        "point_recharge_batch"
+      ],
+      "table_conditions": {
+        "point_recharge_batch": "batch_id=point_recharge_batch.id"
+      }
+    },
+    "平台政策": {
+      "name": "平台政策",
+      "description": "",
+      "tables": [
+        "policy",
+        "company"
+      ],
+      "table_conditions": {
+        "company": "所属公司"
+      }
+    },
+    "泡泡,弹窗活动": {
+      "name": "泡泡,弹窗活动",
+      "description": "",
+      "tables": [
+        "pop_banner",
+        "pop_banner_company",
+        "company"
+      ],
+      "table_conditions": {
+        "pop_banner": "弹窗配置",
+        "pop_banner_company": "弹窗生效的公司pop_id= pop_banner.id",
+        "company": "pop_banner_company.company_id=company.id"
+      }
+    },
+    "积分转赠": {
+      "name": "积分转赠",
+      "description": "会员积分可转赠同经销商会员",
+      "tables": [
+        "present_record",
+        "point_consum"
+      ],
+      "table_conditions": {
+        "present_record": "转赠表present_id=point_recharge_detail.id, 转赠的充值记录; received_id=point_recharge_detail.id收到积分的充值记录",
+        "point_consum": "转赠用户会生成一条消费记录, type=2表示转赠"
+      }
+    },
+    "京东价格变更记录": {
+      "name": "京东价格变更记录",
+      "description": "",
+      "tables": [
+        "price_change"
+      ],
+      "table_conditions": {}
+    },
+    "一级供应商的成本价": {
+      "name": "一级供应商的成本价",
+      "description": "",
+      "tables": [
+        "primary_goods_price"
+      ],
+      "table_conditions": {}
+    },
+    "一级供应商商品最低利润率配置": {
+      "name": "一级供应商商品最低利润率配置",
+      "description": "",
+      "tables": [
+        "primary_goods_price_profit"
+      ],
+      "table_conditions": {}
+    },
+    "积分分配": {
+      "name": "积分分配",
+      "description": "奥迪公司专属,经销商可将会员冻结的积分分配给其他人",
+      "tables": [
+        "reallocate_detail",
+        "reallocate_record",
+        "reallocate_record_detail"
+      ],
+      "table_conditions": {
+        "reallocate_detail": "奥迪公司可用于重新分配的recharge_detail.id=point_recharge_detail.id",
+        "reallocate_record": "分配记录",
+        "reallocate_record_detail": "分配记录详情"
+      }
+    },
+    "前端商品分类与品牌的推荐配置": {
+      "name": "前端商品分类与品牌的推荐配置",
+      "description": "包括品牌的推荐品牌,分类的推荐品牌,品牌的推荐分类,分类的推荐分类,品牌的推荐商品,分类的推荐商品,首页推荐品牌,首页推荐分类",
+      "tables": [
+        "recommend_b_brand",
+        "recommend_b_category",
+        "recommend_b_goods",
+        "recommend_brand",
+        "recommend_c1_brand",
+        "recommend_c_brand",
+        "recommend_c_category",
+        "recommend_c_goods",
+        "recommend_category"
+      ],
+      "table_conditions": {
+        "recommend_b_brand": "品牌的推荐品牌",
+        "recommend_b_category": "品牌的推荐分类",
+        "recommend_b_goods": "品牌的推荐商品",
+        "recommend_brand": "首页推荐品牌",
+        "recommend_c1_brand": "一级分类的推荐品牌",
+        "recommend_c_brand": "分类的推荐品牌",
+        "recommend_c_category": "分类的推荐其它分类",
+        "recommend_c_goods": "分类的推荐商品",
+        "recommend_category": "首页推荐分类"
+      }
+    },
+    "用户推荐商品": {
+      "name": "用户推荐商品",
+      "description": "",
+      "tables": [
+        "recommend_member_goods",
+        "recommend_self_goods"
+      ],
+      "table_conditions": {
+        "recommend_self_goods": "自行配置的会员推荐商品"
+      }
+    },
+    "商品所在地址是否有货": {
+      "name": "商品所在地址是否有货",
+      "description": "",
+      "tables": [
+        "recommend_select_record",
+        "recommend_select_record_goods"
+      ],
+      "table_conditions": {
+        "recommend_select_record_goods": "对应的商品表"
+      }
+    },
+    "积分结算": {
+      "name": "积分结算",
+      "description": "公司可按政策或积分批次结算, 大众,捷达,奥迪可用",
+      "tables": [
+        "settlement_batch",
+        "settlement_car_apply_detail",
+        "settlement_detail",
+        "settlement_detail_audi",
+        "settlement_item_point"
+      ],
+      "table_conditions": {
+        "settlement_batch": "结算批次",
+        "settlement_car_apply_detail": "结算购车详情, 只有大众有",
+        "settlement_detail": "结算与订单关系表",
+        "settlement_detail_audi": "奥迪专属,结算信息的补充",
+        "settlement_item_point": "XMT政策历史结算订单积分"
+      }
+    },
+    "购物车": {
+      "name": "购物车",
+      "description": "",
+      "tables": [
+        "shopping_cart_item",
+        "members"
+      ],
+      "table_conditions": {
+        "shopping_cart_item": "members的购物车,二级结构,加购时加购商品有parent_id",
+        "members": "user_id=members.id"
+      }
+    },
+    "会员登录手机验证码": {
+      "name": "会员登录手机验证码",
+      "description": "可通过此表获取用户是否登录",
+      "tables": [
+        "sms_history",
+        "members"
+      ],
+      "table_conditions": {
+        "members": "members.mobile=sms_history.mobile"
+      }
+    },
+    "月报": {
+      "name": "月报",
+      "description": "使用month_year关联, 202601表示2026年1月",
+      "tables": [
+        "stat_brand_map",
+        "stat_month_brand",
+        "stat_month_category",
+        "stat_month_category_brand",
+        "stat_month_category_brand_jd",
+        "stat_month_category_jd",
+        "stat_month_channel",
+        "stat_month_consume",
+        "stat_month_consume_day",
+        "stat_month_consume_order",
+        "stat_month_consume_order_item",
+        "stat_month_keyword",
+        "statistics_category_config",
+        "stat_month_member_point"
+      ],
+      "table_conditions": {
+        "stat_brand_map": "周报,月报品牌名称映射, name需要合并到parent_name显示",
+        "stat_month_brand": "月报品牌统计",
+        "stat_month_category": "月报分类统计",
+        "stat_month_category_brand": "月报分类与品牌统计",
+        "stat_month_category_brand_jd": "京东渠道月报分类与品牌统计",
+        "stat_month_category_jd": "月报京东分类统计",
+        "stat_month_channel": "月报供应商统计",
+        "stat_month_consume": "月报积分兑换统计",
+        "stat_month_consume_day": "月报按天兑换积分统计",
+        "stat_month_consume_order": "月报订单状态与商品数量",
+        "stat_month_consume_order_item": "月报子订单状态与商品数量",
+        "stat_month_keyword": "月报用户搜索统计",
+        "statistics_category_config": "必须统计的分类",
+        "stat_month_member_point": "月报用户积分统计"
+      }
+    },
+    "周报": {
+      "name": "周报",
+      "description": "使用week_year关联,202612表示2026年第12周",
+      "tables": [
+        "stat_brand_map",
+        "stat_week_brand",
+        "stat_week_category",
+        "stat_week_category_brand",
+        "stat_week_category_brand_jd",
+        "stat_week_category_jd",
+        "stat_week_channel",
+        "stat_week_consume",
+        "stat_week_consume_day",
+        "stat_week_consume_order",
+        "stat_week_consume_order_item",
+        "stat_week_keyword",
+        "stat_week_point"
+      ],
+      "table_conditions": {
+        "stat_brand_map": "周报,月报品牌名称映射, name需要合并到parent_name显示",
+        "stat_week_brand": "周报品牌统计",
+        "stat_week_category": "周报分类统计",
+        "stat_week_category_brand": "周报分类与品牌统计",
+        "stat_week_category_brand_jd": "京东渠道周报分类与品牌统计",
+        "stat_week_category_jd": "京东渠道周报分类统计",
+        "stat_week_channel": "周报渠道统计",
+        "stat_week_consume": "周报用户兑换积分统计",
+        "stat_week_consume_day": "周报按天积分兑换统计",
+        "stat_week_consume_order": "周报订单状态与商品数量",
+        "stat_week_consume_order_item": "周报子订单状态与商品数量",
+        "stat_week_keyword": "周报用户搜索统计",
+        "stat_week_point": "周报积分导入与使用"
+      }
+    },
+    "商品销售统计": {
+      "name": "商品销售统计",
+      "description": "",
+      "tables": [
+        "statistics_goods_sale"
+      ],
+      "table_conditions": {}
+    },
+    "订单销售信息": {
+      "name": "订单销售信息",
+      "description": "",
+      "tables": [
+        "statistics_order_sale"
+      ],
+      "table_conditions": {}
+    },
+    "后台权限": {
+      "name": "后台权限",
+      "description": "",
+      "tables": [
+        "sys_authority",
+        "sys_role",
+        "sys_role_authority",
+        "sys_role_permission",
+        "sys_user_authority",
+        "sys_user_role",
+        "mall_admin_user_permission",
+        "mall_admin_user"
+      ],
+      "table_conditions": {
+        "sys_authority": "技能",
+        "sys_role": "角色",
+        "sys_role_authority": "角色所属技能",
+        "sys_role_permission": "角色所属菜单",
+        "sys_user_authority": "后台用户拥有的技能",
+        "sys_user_role": "角色拥有的菜单",
+        "mall_admin_user_permission": "特殊用户有的菜单",
+        "mall_admin_user": "后台用户"
+      }
+    },
+    "行政地址": {
+      "name": "行政地址",
+      "description": "",
+      "tables": [
+        "sys_province",
+        "sys_city",
+        "sys_distinct"
+      ],
+      "table_conditions": {
+        "sys_province": "省份",
+        "sys_city": "城市",
+        "sys_distinct": "城市下面的区,县"
+      }
+    }
+  }
+}
